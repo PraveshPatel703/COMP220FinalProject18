@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="COMP220FinalProject18"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="COMP220FinalProject18">
+				<Option output="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/COMP220FinalProject18.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/Makefile&quot;  VERBOSE=1 COMP220FinalProject18"/>
+					<CompileFile command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="COMP220FinalProject18/fast">
+				<Option output="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/COMP220FinalProject18.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/Makefile&quot;  VERBOSE=1 COMP220FinalProject18/fast"/>
+					<CompileFile command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/.idea/COMP220FinalProject18.iml">
+			<Option target="COMP220FinalProject18"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/.idea/codeStyles/Project.xml">
+			<Option target="COMP220FinalProject18"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/.idea/misc.xml">
+			<Option target="COMP220FinalProject18"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/.idea/modules.xml">
+			<Option target="COMP220FinalProject18"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/.idea/workspace.xml">
+			<Option target="COMP220FinalProject18"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/CMakeLists.txt">
+			<Option target="COMP220FinalProject18"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ConcessionItem.cpp">
+			<Option target="COMP220FinalProject18"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ConcessionItem.h">
+			<Option target="COMP220FinalProject18"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ConcessionStand.h">
+			<Option target="COMP220FinalProject18"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/LinkedList.cpp">
+			<Option target="COMP220FinalProject18"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/LinkedList.h">
+			<Option target="COMP220FinalProject18"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/LinkedNode.cpp">
+			<Option target="COMP220FinalProject18"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/LinkedNode.h">
+			<Option target="COMP220FinalProject18"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/CMakeCache.txt">
+			<Option target="COMP220FinalProject18"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/main.cpp">
+			<Option target="COMP220FinalProject18"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
