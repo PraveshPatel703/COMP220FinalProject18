@@ -6,8 +6,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/PraveshPatel/CLionProjects/COMP220FinalProject18/ArrayList.cpp" "/Users/PraveshPatel/CLionProjects/COMP220FinalProject18/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/ArrayList.cpp.o"
   "/Users/PraveshPatel/CLionProjects/COMP220FinalProject18/BoxOffice.cpp" "/Users/PraveshPatel/CLionProjects/COMP220FinalProject18/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/BoxOffice.cpp.o"
+  "/Users/PraveshPatel/CLionProjects/COMP220FinalProject18/MasterTester.cpp" "/Users/PraveshPatel/CLionProjects/COMP220FinalProject18/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.o"
   "/Users/PraveshPatel/CLionProjects/COMP220FinalProject18/Movie.cpp" "/Users/PraveshPatel/CLionProjects/COMP220FinalProject18/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/Movie.cpp.o"
-  "/Users/PraveshPatel/CLionProjects/COMP220FinalProject18/main.cpp" "/Users/PraveshPatel/CLionProjects/COMP220FinalProject18/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

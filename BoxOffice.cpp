@@ -12,7 +12,7 @@ BoxOffice::BoxOffice(int movieTimeIn, float durationIn, int roomNumberIn) {
     this->ticketsSold;
     this->movieTime = movieTimeIn;
     this->roomNumber = roomNumberIn;
-    ArrayList* currentMovies = new Movie[5](); //? - having issue here
+    Movie* currentMovies = new Movie[5](); //? - having issue here
 }
 
 BoxOffice::~BoxOffice() {
@@ -41,12 +41,5 @@ float BoxOffice::getDuration() {
 
 
 //currently working on this function... Please help if you can!!
-
-void BoxOffice::setMovieToRoom(ArrayList* currentMovies, int roomNumber) {
-
-    ArrayList*
-
-    for (int i = 0; i < roomNumber; ++i) {
-
-    }
-}
+// selects movies from the larger list of movies playable to the theater "playlist"
+void BoxOffice::setMovieToRoom(ArrayList* currentMovies, int roomNumber) {}

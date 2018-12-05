@@ -177,6 +177,33 @@ BoxOffice.cpp.s:
 	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/BoxOffice.cpp.s
 .PHONY : BoxOffice.cpp.s
 
+MasterTester.o: MasterTester.cpp.o
+
+.PHONY : MasterTester.o
+
+# target to build an object file
+MasterTester.cpp.o:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.o
+.PHONY : MasterTester.cpp.o
+
+MasterTester.i: MasterTester.cpp.i
+
+.PHONY : MasterTester.i
+
+# target to preprocess a source file
+MasterTester.cpp.i:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.i
+.PHONY : MasterTester.cpp.i
+
+MasterTester.s: MasterTester.cpp.s
+
+.PHONY : MasterTester.s
+
+# target to generate assembly for a file
+MasterTester.cpp.s:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.s
+.PHONY : MasterTester.cpp.s
+
 Movie.o: Movie.cpp.o
 
 .PHONY : Movie.o
@@ -204,33 +231,6 @@ Movie.cpp.s:
 	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/Movie.cpp.s
 .PHONY : Movie.cpp.s
 
-main.o: main.cpp.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -246,12 +246,12 @@ help:
 	@echo "... BoxOffice.o"
 	@echo "... BoxOffice.i"
 	@echo "... BoxOffice.s"
+	@echo "... MasterTester.o"
+	@echo "... MasterTester.i"
+	@echo "... MasterTester.s"
 	@echo "... Movie.o"
 	@echo "... Movie.i"
 	@echo "... Movie.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
 .PHONY : help
 
 

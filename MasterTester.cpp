@@ -5,6 +5,8 @@
 #include "ConcessionItem.h"
 #include "ConcessionStand.h"
 #include "TheaterRoom.h"
+#include "Movie.h"
+#include "BoxOffice.h"
 
 
 int main(){

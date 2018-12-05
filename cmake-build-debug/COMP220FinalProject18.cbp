@@ -104,13 +104,13 @@
 		<Unit filename="/Users/PraveshPatel/CLionProjects/COMP220FinalProject18/List.h">
 			<Option target="COMP220FinalProject18"/>
 		</Unit>
+		<Unit filename="/Users/PraveshPatel/CLionProjects/COMP220FinalProject18/MasterTester.cpp">
+			<Option target="COMP220FinalProject18"/>
+		</Unit>
 		<Unit filename="/Users/PraveshPatel/CLionProjects/COMP220FinalProject18/Movie.cpp">
 			<Option target="COMP220FinalProject18"/>
 		</Unit>
 		<Unit filename="/Users/PraveshPatel/CLionProjects/COMP220FinalProject18/Movie.h">
-			<Option target="COMP220FinalProject18"/>
-		</Unit>
-		<Unit filename="/Users/PraveshPatel/CLionProjects/COMP220FinalProject18/main.cpp">
 			<Option target="COMP220FinalProject18"/>
 		</Unit>
 		<Unit filename="/Users/PraveshPatel/CLionProjects/COMP220FinalProject18/CMakeLists.txt">

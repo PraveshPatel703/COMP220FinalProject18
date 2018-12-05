@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/COMP220FinalProject18.dir/main.cpp.o"
+  "CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.o"
   "CMakeFiles/COMP220FinalProject18.dir/Movie.cpp.o"
   "CMakeFiles/COMP220FinalProject18.dir/BoxOffice.cpp.o"
   "CMakeFiles/COMP220FinalProject18.dir/ArrayList.cpp.o"
