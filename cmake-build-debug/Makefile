@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/Matt/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/Matt/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18
+CMAKE_SOURCE_DIR = /Users/Bryan/CLionProjects/COMP220FinalProject18
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/Bryan/CLionProjects/COMP220FinalProject18/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/cygdrive/c/Users/Matt/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/cygdrive/c/Users/Matt/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/CMakeFiles /cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Bryan/CLionProjects/COMP220FinalProject18/cmake-build-debug/CMakeFiles /Users/Bryan/CLionProjects/COMP220FinalProject18/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Bryan/CLionProjects/COMP220FinalProject18/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -150,33 +150,6 @@ ConcessionItem.cpp.s:
 	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/ConcessionItem.cpp.s
 .PHONY : ConcessionItem.cpp.s
 
-LinkedList.o: LinkedList.cpp.o
-
-.PHONY : LinkedList.o
-
-# target to build an object file
-LinkedList.cpp.o:
-	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/LinkedList.cpp.o
-.PHONY : LinkedList.cpp.o
-
-LinkedList.i: LinkedList.cpp.i
-
-.PHONY : LinkedList.i
-
-# target to preprocess a source file
-LinkedList.cpp.i:
-	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/LinkedList.cpp.i
-.PHONY : LinkedList.cpp.i
-
-LinkedList.s: LinkedList.cpp.s
-
-.PHONY : LinkedList.s
-
-# target to generate assembly for a file
-LinkedList.cpp.s:
-	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/LinkedList.cpp.s
-.PHONY : LinkedList.cpp.s
-
 LinkedNode.o: LinkedNode.cpp.o
 
 .PHONY : LinkedNode.o
@@ -203,6 +176,60 @@ LinkedNode.s: LinkedNode.cpp.s
 LinkedNode.cpp.s:
 	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/LinkedNode.cpp.s
 .PHONY : LinkedNode.cpp.s
+
+MasterTester.o: MasterTester.cpp.o
+
+.PHONY : MasterTester.o
+
+# target to build an object file
+MasterTester.cpp.o:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.o
+.PHONY : MasterTester.cpp.o
+
+MasterTester.i: MasterTester.cpp.i
+
+.PHONY : MasterTester.i
+
+# target to preprocess a source file
+MasterTester.cpp.i:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.i
+.PHONY : MasterTester.cpp.i
+
+MasterTester.s: MasterTester.cpp.s
+
+.PHONY : MasterTester.s
+
+# target to generate assembly for a file
+MasterTester.cpp.s:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.s
+.PHONY : MasterTester.cpp.s
+
+TheaterRoom.o: TheaterRoom.cpp.o
+
+.PHONY : TheaterRoom.o
+
+# target to build an object file
+TheaterRoom.cpp.o:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/TheaterRoom.cpp.o
+.PHONY : TheaterRoom.cpp.o
+
+TheaterRoom.i: TheaterRoom.cpp.i
+
+.PHONY : TheaterRoom.i
+
+# target to preprocess a source file
+TheaterRoom.cpp.i:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/TheaterRoom.cpp.i
+.PHONY : TheaterRoom.cpp.i
+
+TheaterRoom.s: TheaterRoom.cpp.s
+
+.PHONY : TheaterRoom.s
+
+# target to generate assembly for a file
+TheaterRoom.cpp.s:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/TheaterRoom.cpp.s
+.PHONY : TheaterRoom.cpp.s
 
 main.o: main.cpp.o
 
@@ -238,17 +265,20 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... COMP220FinalProject18"
 	@echo "... edit_cache"
+	@echo "... COMP220FinalProject18"
 	@echo "... ConcessionItem.o"
 	@echo "... ConcessionItem.i"
 	@echo "... ConcessionItem.s"
-	@echo "... LinkedList.o"
-	@echo "... LinkedList.i"
-	@echo "... LinkedList.s"
 	@echo "... LinkedNode.o"
 	@echo "... LinkedNode.i"
 	@echo "... LinkedNode.s"
+	@echo "... MasterTester.o"
+	@echo "... MasterTester.i"
+	@echo "... MasterTester.s"
+	@echo "... TheaterRoom.o"
+	@echo "... TheaterRoom.i"
+	@echo "... TheaterRoom.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

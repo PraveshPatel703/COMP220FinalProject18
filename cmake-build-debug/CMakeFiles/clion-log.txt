@@ -1,4 +1,4 @@
-C:\Users\Matt\.CLion2018.2\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/cygwin64/bin/make.exe -DCMAKE_C_COMPILER=C:/cygwin64/bin/gcc.exe -DCMAKE_CXX_COMPILER=C:/cygwin64/bin/c++.exe -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/Bryan/CLionProjects/COMP220FinalProject18
 -- Configuring done
 -- Generating done
--- Build files have been written to: /cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug
+-- Build files have been written to: /Users/Bryan/CLionProjects/COMP220FinalProject18/cmake-build-debug
