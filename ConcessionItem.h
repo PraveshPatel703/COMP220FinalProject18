@@ -14,24 +14,24 @@ private:
     float price;
 
 public:
-    ConcessionItem(std::string itemName, int stock, float price){};
+    ConcessionItem(std::string itemName, int stock, float price);
 
-    ~ConcessionItem(){};
+    ~ConcessionItem();
 
     //gets Item
-    std::string getItem(){};
+    std::string getItem();
 
     //gets stock of this item
-    int getStock(){};
+    int getStock();
 
     //gets price of this item
-    float getPrice(){};
+    float getPrice();
 
     //changes stock of the item
-    void setStock(){};
+    void addToStock(int amountToAdd);
 
     //changes price of the item
-    void setPrice(){};
+    void setPrice(float newPrice);
 
 
 };
