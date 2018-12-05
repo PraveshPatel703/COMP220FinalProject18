@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ArrayList.cpp" "/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/ArrayList.cpp.o"
   "/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/BoxOffice.cpp" "/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/BoxOffice.cpp.o"
   "/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ConcessionItem.cpp" "/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/ConcessionItem.cpp.o"
+  "/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ConcessionStand.cpp" "/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/ConcessionStand.cpp.o"
   "/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/MasterTester.cpp" "/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.o"
   "/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Movie.cpp" "/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/Movie.cpp.o"
   )

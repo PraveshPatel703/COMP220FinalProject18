@@ -204,6 +204,33 @@ ConcessionItem.cpp.s:
 	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/ConcessionItem.cpp.s
 .PHONY : ConcessionItem.cpp.s
 
+ConcessionStand.o: ConcessionStand.cpp.o
+
+.PHONY : ConcessionStand.o
+
+# target to build an object file
+ConcessionStand.cpp.o:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/ConcessionStand.cpp.o
+.PHONY : ConcessionStand.cpp.o
+
+ConcessionStand.i: ConcessionStand.cpp.i
+
+.PHONY : ConcessionStand.i
+
+# target to preprocess a source file
+ConcessionStand.cpp.i:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/ConcessionStand.cpp.i
+.PHONY : ConcessionStand.cpp.i
+
+ConcessionStand.s: ConcessionStand.cpp.s
+
+.PHONY : ConcessionStand.s
+
+# target to generate assembly for a file
+ConcessionStand.cpp.s:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/ConcessionStand.cpp.s
+.PHONY : ConcessionStand.cpp.s
+
 MasterTester.o: MasterTester.cpp.o
 
 .PHONY : MasterTester.o
@@ -276,6 +303,9 @@ help:
 	@echo "... ConcessionItem.o"
 	@echo "... ConcessionItem.i"
 	@echo "... ConcessionItem.s"
+	@echo "... ConcessionStand.o"
+	@echo "... ConcessionStand.i"
+	@echo "... ConcessionStand.s"
 	@echo "... MasterTester.o"
 	@echo "... MasterTester.i"
 	@echo "... MasterTester.s"

@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/COMP220FinalProject18.dir/BoxOffice.cpp.o"
   "CMakeFiles/COMP220FinalProject18.dir/ArrayList.cpp.o"
   "CMakeFiles/COMP220FinalProject18.dir/ConcessionItem.cpp.o"
+  "CMakeFiles/COMP220FinalProject18.dir/ConcessionStand.cpp.o"
   "COMP220FinalProject18.pdb"
   "COMP220FinalProject18.exe"
   "libCOMP220FinalProject18.dll.a"

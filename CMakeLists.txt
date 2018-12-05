@@ -4,5 +4,5 @@ project(COMP220FinalProject18)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(COMP220FinalProject18 MasterTester.cpp Movie.cpp Movie.h BoxOffice.cpp BoxOffice.h
-        LinkedList.h LinkedNode.h List.h ArrayList.cpp ArrayList.h ArrayLib.h ConcessionItem.cpp ConcessionItem.h ConcessionStand.h)
+        LinkedList.h LinkedNode.h List.h ArrayList.cpp ArrayList.h ArrayLib.h ConcessionItem.cpp ConcessionItem.h ConcessionStand.h ConcessionStand.cpp)
 

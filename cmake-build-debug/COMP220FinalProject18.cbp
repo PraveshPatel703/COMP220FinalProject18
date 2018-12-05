@@ -101,6 +101,9 @@
 		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ConcessionItem.h">
 			<Option target="COMP220FinalProject18"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ConcessionStand.cpp">
+			<Option target="COMP220FinalProject18"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ConcessionStand.h">
 			<Option target="COMP220FinalProject18"/>
 		</Unit>
