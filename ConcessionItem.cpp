@@ -4,7 +4,6 @@
 
 #include "ConcessionItem.h"
 #include <string>
-
 class ConcessionItem{
 private:
     std::string itemName;
