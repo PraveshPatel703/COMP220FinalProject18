@@ -11,7 +11,9 @@ private:
 
 public:
     TheaterRoom(int seatCount int roomNumber){
-        //this function will create the rooms currently we will set to a max of 5
+        //this function will create the rooms< currently we will set to a max of 5
+        this->seatCount = seatCount;
+        this->roomNumber = roomNumber;
     }
 
 
