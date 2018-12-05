@@ -4,10 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/PraveshPatel/CLionProjects/COMP220FinalProject18/ArrayList.cpp" "/Users/PraveshPatel/CLionProjects/COMP220FinalProject18/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/ArrayList.cpp.o"
-  "/Users/PraveshPatel/CLionProjects/COMP220FinalProject18/BoxOffice.cpp" "/Users/PraveshPatel/CLionProjects/COMP220FinalProject18/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/BoxOffice.cpp.o"
-  "/Users/PraveshPatel/CLionProjects/COMP220FinalProject18/Movie.cpp" "/Users/PraveshPatel/CLionProjects/COMP220FinalProject18/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/Movie.cpp.o"
-  "/Users/PraveshPatel/CLionProjects/COMP220FinalProject18/main.cpp" "/Users/PraveshPatel/CLionProjects/COMP220FinalProject18/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/main.cpp.o"
+  "/Users/Bryan/CLionProjects/COMP220FinalProject/ArrayList.cpp" "/Users/Bryan/CLionProjects/COMP220FinalProject/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/ArrayList.cpp.o"
+  "/Users/Bryan/CLionProjects/COMP220FinalProject/BoxOffice.cpp" "/Users/Bryan/CLionProjects/COMP220FinalProject/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/BoxOffice.cpp.o"
+  "/Users/Bryan/CLionProjects/COMP220FinalProject/ConcessionItem.cpp" "/Users/Bryan/CLionProjects/COMP220FinalProject/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/ConcessionItem.cpp.o"
+  "/Users/Bryan/CLionProjects/COMP220FinalProject/LinkedList.cpp" "/Users/Bryan/CLionProjects/COMP220FinalProject/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/LinkedList.cpp.o"
+  "/Users/Bryan/CLionProjects/COMP220FinalProject/LinkedNode.cpp" "/Users/Bryan/CLionProjects/COMP220FinalProject/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/LinkedNode.cpp.o"
+  "/Users/Bryan/CLionProjects/COMP220FinalProject/MasterTester.cpp" "/Users/Bryan/CLionProjects/COMP220FinalProject/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.o"
+  "/Users/Bryan/CLionProjects/COMP220FinalProject/Movie.cpp" "/Users/Bryan/CLionProjects/COMP220FinalProject/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/Movie.cpp.o"
+  "/Users/Bryan/CLionProjects/COMP220FinalProject/TheaterRoom.cpp" "/Users/Bryan/CLionProjects/COMP220FinalProject/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/TheaterRoom.cpp.o"
+  "/Users/Bryan/CLionProjects/COMP220FinalProject/main.cpp" "/Users/Bryan/CLionProjects/COMP220FinalProject/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

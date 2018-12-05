@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/Matt/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/Matt/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18
+CMAKE_SOURCE_DIR = /Users/Bryan/CLionProjects/COMP220FinalProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/Bryan/CLionProjects/COMP220FinalProject/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/COMP220FinalProject18.dir/depend.make
@@ -59,92 +59,152 @@ include CMakeFiles/COMP220FinalProject18.dir/flags.make
 
 CMakeFiles/COMP220FinalProject18.dir/main.cpp.o: CMakeFiles/COMP220FinalProject18.dir/flags.make
 CMakeFiles/COMP220FinalProject18.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/COMP220FinalProject18.dir/main.cpp.o"
-	C:/cygwin64/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/COMP220FinalProject18.dir/main.cpp.o -c /cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Bryan/CLionProjects/COMP220FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/COMP220FinalProject18.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/COMP220FinalProject18.dir/main.cpp.o -c /Users/Bryan/CLionProjects/COMP220FinalProject/main.cpp
 
 CMakeFiles/COMP220FinalProject18.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COMP220FinalProject18.dir/main.cpp.i"
-	C:/cygwin64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18/main.cpp > CMakeFiles/COMP220FinalProject18.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Bryan/CLionProjects/COMP220FinalProject/main.cpp > CMakeFiles/COMP220FinalProject18.dir/main.cpp.i
 
 CMakeFiles/COMP220FinalProject18.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COMP220FinalProject18.dir/main.cpp.s"
-	C:/cygwin64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18/main.cpp -o CMakeFiles/COMP220FinalProject18.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Bryan/CLionProjects/COMP220FinalProject/main.cpp -o CMakeFiles/COMP220FinalProject18.dir/main.cpp.s
 
-CMakeFiles/COMP220FinalProject18.dir/ConcessionItem.cpp.o: CMakeFiles/COMP220FinalProject18.dir/flags.make
-CMakeFiles/COMP220FinalProject18.dir/ConcessionItem.cpp.o: ../ConcessionItem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/COMP220FinalProject18.dir/ConcessionItem.cpp.o"
-	C:/cygwin64/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/COMP220FinalProject18.dir/ConcessionItem.cpp.o -c /cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18/ConcessionItem.cpp
+CMakeFiles/COMP220FinalProject18.dir/Movie.cpp.o: CMakeFiles/COMP220FinalProject18.dir/flags.make
+CMakeFiles/COMP220FinalProject18.dir/Movie.cpp.o: ../Movie.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Bryan/CLionProjects/COMP220FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/COMP220FinalProject18.dir/Movie.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/COMP220FinalProject18.dir/Movie.cpp.o -c /Users/Bryan/CLionProjects/COMP220FinalProject/Movie.cpp
 
-CMakeFiles/COMP220FinalProject18.dir/ConcessionItem.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COMP220FinalProject18.dir/ConcessionItem.cpp.i"
-	C:/cygwin64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18/ConcessionItem.cpp > CMakeFiles/COMP220FinalProject18.dir/ConcessionItem.cpp.i
+CMakeFiles/COMP220FinalProject18.dir/Movie.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COMP220FinalProject18.dir/Movie.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Bryan/CLionProjects/COMP220FinalProject/Movie.cpp > CMakeFiles/COMP220FinalProject18.dir/Movie.cpp.i
 
-CMakeFiles/COMP220FinalProject18.dir/ConcessionItem.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COMP220FinalProject18.dir/ConcessionItem.cpp.s"
-	C:/cygwin64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18/ConcessionItem.cpp -o CMakeFiles/COMP220FinalProject18.dir/ConcessionItem.cpp.s
+CMakeFiles/COMP220FinalProject18.dir/Movie.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COMP220FinalProject18.dir/Movie.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Bryan/CLionProjects/COMP220FinalProject/Movie.cpp -o CMakeFiles/COMP220FinalProject18.dir/Movie.cpp.s
 
-CMakeFiles/COMP220FinalProject18.dir/LinkedNode.cpp.o: CMakeFiles/COMP220FinalProject18.dir/flags.make
-CMakeFiles/COMP220FinalProject18.dir/LinkedNode.cpp.o: ../LinkedNode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/COMP220FinalProject18.dir/LinkedNode.cpp.o"
-	C:/cygwin64/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/COMP220FinalProject18.dir/LinkedNode.cpp.o -c /cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18/LinkedNode.cpp
+CMakeFiles/COMP220FinalProject18.dir/BoxOffice.cpp.o: CMakeFiles/COMP220FinalProject18.dir/flags.make
+CMakeFiles/COMP220FinalProject18.dir/BoxOffice.cpp.o: ../BoxOffice.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Bryan/CLionProjects/COMP220FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/COMP220FinalProject18.dir/BoxOffice.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/COMP220FinalProject18.dir/BoxOffice.cpp.o -c /Users/Bryan/CLionProjects/COMP220FinalProject/BoxOffice.cpp
 
-CMakeFiles/COMP220FinalProject18.dir/LinkedNode.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COMP220FinalProject18.dir/LinkedNode.cpp.i"
-	C:/cygwin64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18/LinkedNode.cpp > CMakeFiles/COMP220FinalProject18.dir/LinkedNode.cpp.i
+CMakeFiles/COMP220FinalProject18.dir/BoxOffice.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COMP220FinalProject18.dir/BoxOffice.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Bryan/CLionProjects/COMP220FinalProject/BoxOffice.cpp > CMakeFiles/COMP220FinalProject18.dir/BoxOffice.cpp.i
 
-CMakeFiles/COMP220FinalProject18.dir/LinkedNode.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COMP220FinalProject18.dir/LinkedNode.cpp.s"
-	C:/cygwin64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18/LinkedNode.cpp -o CMakeFiles/COMP220FinalProject18.dir/LinkedNode.cpp.s
+CMakeFiles/COMP220FinalProject18.dir/BoxOffice.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COMP220FinalProject18.dir/BoxOffice.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Bryan/CLionProjects/COMP220FinalProject/BoxOffice.cpp -o CMakeFiles/COMP220FinalProject18.dir/BoxOffice.cpp.s
 
-CMakeFiles/COMP220FinalProject18.dir/TheaterRoom.cpp.o: CMakeFiles/COMP220FinalProject18.dir/flags.make
-CMakeFiles/COMP220FinalProject18.dir/TheaterRoom.cpp.o: ../TheaterRoom.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/COMP220FinalProject18.dir/TheaterRoom.cpp.o"
-	C:/cygwin64/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/COMP220FinalProject18.dir/TheaterRoom.cpp.o -c /cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18/TheaterRoom.cpp
+CMakeFiles/COMP220FinalProject18.dir/ArrayList.cpp.o: CMakeFiles/COMP220FinalProject18.dir/flags.make
+CMakeFiles/COMP220FinalProject18.dir/ArrayList.cpp.o: ../ArrayList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Bryan/CLionProjects/COMP220FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/COMP220FinalProject18.dir/ArrayList.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/COMP220FinalProject18.dir/ArrayList.cpp.o -c /Users/Bryan/CLionProjects/COMP220FinalProject/ArrayList.cpp
 
-CMakeFiles/COMP220FinalProject18.dir/TheaterRoom.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COMP220FinalProject18.dir/TheaterRoom.cpp.i"
-	C:/cygwin64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18/TheaterRoom.cpp > CMakeFiles/COMP220FinalProject18.dir/TheaterRoom.cpp.i
+CMakeFiles/COMP220FinalProject18.dir/ArrayList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COMP220FinalProject18.dir/ArrayList.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Bryan/CLionProjects/COMP220FinalProject/ArrayList.cpp > CMakeFiles/COMP220FinalProject18.dir/ArrayList.cpp.i
 
-CMakeFiles/COMP220FinalProject18.dir/TheaterRoom.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COMP220FinalProject18.dir/TheaterRoom.cpp.s"
-	C:/cygwin64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18/TheaterRoom.cpp -o CMakeFiles/COMP220FinalProject18.dir/TheaterRoom.cpp.s
+CMakeFiles/COMP220FinalProject18.dir/ArrayList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COMP220FinalProject18.dir/ArrayList.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Bryan/CLionProjects/COMP220FinalProject/ArrayList.cpp -o CMakeFiles/COMP220FinalProject18.dir/ArrayList.cpp.s
 
 CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.o: CMakeFiles/COMP220FinalProject18.dir/flags.make
 CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.o: ../MasterTester.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.o"
-	C:/cygwin64/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.o -c /cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18/MasterTester.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Bryan/CLionProjects/COMP220FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.o -c /Users/Bryan/CLionProjects/COMP220FinalProject/MasterTester.cpp
 
 CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.i"
-	C:/cygwin64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18/MasterTester.cpp > CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Bryan/CLionProjects/COMP220FinalProject/MasterTester.cpp > CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.i
 
 CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.s"
-	C:/cygwin64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18/MasterTester.cpp -o CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Bryan/CLionProjects/COMP220FinalProject/MasterTester.cpp -o CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.s
+
+CMakeFiles/COMP220FinalProject18.dir/ConcessionItem.cpp.o: CMakeFiles/COMP220FinalProject18.dir/flags.make
+CMakeFiles/COMP220FinalProject18.dir/ConcessionItem.cpp.o: ../ConcessionItem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Bryan/CLionProjects/COMP220FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/COMP220FinalProject18.dir/ConcessionItem.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/COMP220FinalProject18.dir/ConcessionItem.cpp.o -c /Users/Bryan/CLionProjects/COMP220FinalProject/ConcessionItem.cpp
+
+CMakeFiles/COMP220FinalProject18.dir/ConcessionItem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COMP220FinalProject18.dir/ConcessionItem.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Bryan/CLionProjects/COMP220FinalProject/ConcessionItem.cpp > CMakeFiles/COMP220FinalProject18.dir/ConcessionItem.cpp.i
+
+CMakeFiles/COMP220FinalProject18.dir/ConcessionItem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COMP220FinalProject18.dir/ConcessionItem.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Bryan/CLionProjects/COMP220FinalProject/ConcessionItem.cpp -o CMakeFiles/COMP220FinalProject18.dir/ConcessionItem.cpp.s
+
+CMakeFiles/COMP220FinalProject18.dir/LinkedList.cpp.o: CMakeFiles/COMP220FinalProject18.dir/flags.make
+CMakeFiles/COMP220FinalProject18.dir/LinkedList.cpp.o: ../LinkedList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Bryan/CLionProjects/COMP220FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/COMP220FinalProject18.dir/LinkedList.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/COMP220FinalProject18.dir/LinkedList.cpp.o -c /Users/Bryan/CLionProjects/COMP220FinalProject/LinkedList.cpp
+
+CMakeFiles/COMP220FinalProject18.dir/LinkedList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COMP220FinalProject18.dir/LinkedList.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Bryan/CLionProjects/COMP220FinalProject/LinkedList.cpp > CMakeFiles/COMP220FinalProject18.dir/LinkedList.cpp.i
+
+CMakeFiles/COMP220FinalProject18.dir/LinkedList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COMP220FinalProject18.dir/LinkedList.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Bryan/CLionProjects/COMP220FinalProject/LinkedList.cpp -o CMakeFiles/COMP220FinalProject18.dir/LinkedList.cpp.s
+
+CMakeFiles/COMP220FinalProject18.dir/LinkedNode.cpp.o: CMakeFiles/COMP220FinalProject18.dir/flags.make
+CMakeFiles/COMP220FinalProject18.dir/LinkedNode.cpp.o: ../LinkedNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Bryan/CLionProjects/COMP220FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/COMP220FinalProject18.dir/LinkedNode.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/COMP220FinalProject18.dir/LinkedNode.cpp.o -c /Users/Bryan/CLionProjects/COMP220FinalProject/LinkedNode.cpp
+
+CMakeFiles/COMP220FinalProject18.dir/LinkedNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COMP220FinalProject18.dir/LinkedNode.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Bryan/CLionProjects/COMP220FinalProject/LinkedNode.cpp > CMakeFiles/COMP220FinalProject18.dir/LinkedNode.cpp.i
+
+CMakeFiles/COMP220FinalProject18.dir/LinkedNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COMP220FinalProject18.dir/LinkedNode.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Bryan/CLionProjects/COMP220FinalProject/LinkedNode.cpp -o CMakeFiles/COMP220FinalProject18.dir/LinkedNode.cpp.s
+
+CMakeFiles/COMP220FinalProject18.dir/TheaterRoom.cpp.o: CMakeFiles/COMP220FinalProject18.dir/flags.make
+CMakeFiles/COMP220FinalProject18.dir/TheaterRoom.cpp.o: ../TheaterRoom.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Bryan/CLionProjects/COMP220FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/COMP220FinalProject18.dir/TheaterRoom.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/COMP220FinalProject18.dir/TheaterRoom.cpp.o -c /Users/Bryan/CLionProjects/COMP220FinalProject/TheaterRoom.cpp
+
+CMakeFiles/COMP220FinalProject18.dir/TheaterRoom.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COMP220FinalProject18.dir/TheaterRoom.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Bryan/CLionProjects/COMP220FinalProject/TheaterRoom.cpp > CMakeFiles/COMP220FinalProject18.dir/TheaterRoom.cpp.i
+
+CMakeFiles/COMP220FinalProject18.dir/TheaterRoom.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COMP220FinalProject18.dir/TheaterRoom.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Bryan/CLionProjects/COMP220FinalProject/TheaterRoom.cpp -o CMakeFiles/COMP220FinalProject18.dir/TheaterRoom.cpp.s
 
 # Object files for target COMP220FinalProject18
 COMP220FinalProject18_OBJECTS = \
 "CMakeFiles/COMP220FinalProject18.dir/main.cpp.o" \
+"CMakeFiles/COMP220FinalProject18.dir/Movie.cpp.o" \
+"CMakeFiles/COMP220FinalProject18.dir/BoxOffice.cpp.o" \
+"CMakeFiles/COMP220FinalProject18.dir/ArrayList.cpp.o" \
+"CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.o" \
 "CMakeFiles/COMP220FinalProject18.dir/ConcessionItem.cpp.o" \
+"CMakeFiles/COMP220FinalProject18.dir/LinkedList.cpp.o" \
 "CMakeFiles/COMP220FinalProject18.dir/LinkedNode.cpp.o" \
-"CMakeFiles/COMP220FinalProject18.dir/TheaterRoom.cpp.o" \
-"CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.o"
+"CMakeFiles/COMP220FinalProject18.dir/TheaterRoom.cpp.o"
 
 # External object files for target COMP220FinalProject18
 COMP220FinalProject18_EXTERNAL_OBJECTS =
 
-COMP220FinalProject18.exe: CMakeFiles/COMP220FinalProject18.dir/main.cpp.o
-COMP220FinalProject18.exe: CMakeFiles/COMP220FinalProject18.dir/ConcessionItem.cpp.o
-COMP220FinalProject18.exe: CMakeFiles/COMP220FinalProject18.dir/LinkedNode.cpp.o
-COMP220FinalProject18.exe: CMakeFiles/COMP220FinalProject18.dir/TheaterRoom.cpp.o
-COMP220FinalProject18.exe: CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.o
-COMP220FinalProject18.exe: CMakeFiles/COMP220FinalProject18.dir/build.make
-COMP220FinalProject18.exe: CMakeFiles/COMP220FinalProject18.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable COMP220FinalProject18.exe"
+COMP220FinalProject18: CMakeFiles/COMP220FinalProject18.dir/main.cpp.o
+COMP220FinalProject18: CMakeFiles/COMP220FinalProject18.dir/Movie.cpp.o
+COMP220FinalProject18: CMakeFiles/COMP220FinalProject18.dir/BoxOffice.cpp.o
+COMP220FinalProject18: CMakeFiles/COMP220FinalProject18.dir/ArrayList.cpp.o
+COMP220FinalProject18: CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.o
+COMP220FinalProject18: CMakeFiles/COMP220FinalProject18.dir/ConcessionItem.cpp.o
+COMP220FinalProject18: CMakeFiles/COMP220FinalProject18.dir/LinkedList.cpp.o
+COMP220FinalProject18: CMakeFiles/COMP220FinalProject18.dir/LinkedNode.cpp.o
+COMP220FinalProject18: CMakeFiles/COMP220FinalProject18.dir/TheaterRoom.cpp.o
+COMP220FinalProject18: CMakeFiles/COMP220FinalProject18.dir/build.make
+COMP220FinalProject18: CMakeFiles/COMP220FinalProject18.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Bryan/CLionProjects/COMP220FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable COMP220FinalProject18"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/COMP220FinalProject18.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/COMP220FinalProject18.dir/build: COMP220FinalProject18.exe
+CMakeFiles/COMP220FinalProject18.dir/build: COMP220FinalProject18
 
 .PHONY : CMakeFiles/COMP220FinalProject18.dir/build
 
@@ -153,6 +213,6 @@ CMakeFiles/COMP220FinalProject18.dir/clean:
 .PHONY : CMakeFiles/COMP220FinalProject18.dir/clean
 
 CMakeFiles/COMP220FinalProject18.dir/depend:
-	cd /cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18 /cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18 /cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18/cmake-build-debug /cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18/cmake-build-debug /cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/Bryan/CLionProjects/COMP220FinalProject/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Bryan/CLionProjects/COMP220FinalProject /Users/Bryan/CLionProjects/COMP220FinalProject /Users/Bryan/CLionProjects/COMP220FinalProject/cmake-build-debug /Users/Bryan/CLionProjects/COMP220FinalProject/cmake-build-debug /Users/Bryan/CLionProjects/COMP220FinalProject/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/COMP220FinalProject18.dir/depend
 

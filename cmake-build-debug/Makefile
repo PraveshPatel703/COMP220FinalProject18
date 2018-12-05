@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/PraveshPatel/CLionProjects/COMP220FinalProject18
+CMAKE_SOURCE_DIR = /Users/Bryan/CLionProjects/COMP220FinalProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/PraveshPatel/CLionProjects/COMP220FinalProject18/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/Bryan/CLionProjects/COMP220FinalProject/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/PraveshPatel/CLionProjects/COMP220FinalProject18/cmake-build-debug/CMakeFiles /Users/PraveshPatel/CLionProjects/COMP220FinalProject18/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Bryan/CLionProjects/COMP220FinalProject/cmake-build-debug/CMakeFiles /Users/Bryan/CLionProjects/COMP220FinalProject/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/PraveshPatel/CLionProjects/COMP220FinalProject18/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Bryan/CLionProjects/COMP220FinalProject/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -177,6 +177,114 @@ BoxOffice.cpp.s:
 	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/BoxOffice.cpp.s
 .PHONY : BoxOffice.cpp.s
 
+ConcessionItem.o: ConcessionItem.cpp.o
+
+.PHONY : ConcessionItem.o
+
+# target to build an object file
+ConcessionItem.cpp.o:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/ConcessionItem.cpp.o
+.PHONY : ConcessionItem.cpp.o
+
+ConcessionItem.i: ConcessionItem.cpp.i
+
+.PHONY : ConcessionItem.i
+
+# target to preprocess a source file
+ConcessionItem.cpp.i:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/ConcessionItem.cpp.i
+.PHONY : ConcessionItem.cpp.i
+
+ConcessionItem.s: ConcessionItem.cpp.s
+
+.PHONY : ConcessionItem.s
+
+# target to generate assembly for a file
+ConcessionItem.cpp.s:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/ConcessionItem.cpp.s
+.PHONY : ConcessionItem.cpp.s
+
+LinkedList.o: LinkedList.cpp.o
+
+.PHONY : LinkedList.o
+
+# target to build an object file
+LinkedList.cpp.o:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/LinkedList.cpp.o
+.PHONY : LinkedList.cpp.o
+
+LinkedList.i: LinkedList.cpp.i
+
+.PHONY : LinkedList.i
+
+# target to preprocess a source file
+LinkedList.cpp.i:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/LinkedList.cpp.i
+.PHONY : LinkedList.cpp.i
+
+LinkedList.s: LinkedList.cpp.s
+
+.PHONY : LinkedList.s
+
+# target to generate assembly for a file
+LinkedList.cpp.s:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/LinkedList.cpp.s
+.PHONY : LinkedList.cpp.s
+
+LinkedNode.o: LinkedNode.cpp.o
+
+.PHONY : LinkedNode.o
+
+# target to build an object file
+LinkedNode.cpp.o:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/LinkedNode.cpp.o
+.PHONY : LinkedNode.cpp.o
+
+LinkedNode.i: LinkedNode.cpp.i
+
+.PHONY : LinkedNode.i
+
+# target to preprocess a source file
+LinkedNode.cpp.i:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/LinkedNode.cpp.i
+.PHONY : LinkedNode.cpp.i
+
+LinkedNode.s: LinkedNode.cpp.s
+
+.PHONY : LinkedNode.s
+
+# target to generate assembly for a file
+LinkedNode.cpp.s:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/LinkedNode.cpp.s
+.PHONY : LinkedNode.cpp.s
+
+MasterTester.o: MasterTester.cpp.o
+
+.PHONY : MasterTester.o
+
+# target to build an object file
+MasterTester.cpp.o:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.o
+.PHONY : MasterTester.cpp.o
+
+MasterTester.i: MasterTester.cpp.i
+
+.PHONY : MasterTester.i
+
+# target to preprocess a source file
+MasterTester.cpp.i:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.i
+.PHONY : MasterTester.cpp.i
+
+MasterTester.s: MasterTester.cpp.s
+
+.PHONY : MasterTester.s
+
+# target to generate assembly for a file
+MasterTester.cpp.s:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.s
+.PHONY : MasterTester.cpp.s
+
 Movie.o: Movie.cpp.o
 
 .PHONY : Movie.o
@@ -203,6 +311,33 @@ Movie.s: Movie.cpp.s
 Movie.cpp.s:
 	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/Movie.cpp.s
 .PHONY : Movie.cpp.s
+
+TheaterRoom.o: TheaterRoom.cpp.o
+
+.PHONY : TheaterRoom.o
+
+# target to build an object file
+TheaterRoom.cpp.o:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/TheaterRoom.cpp.o
+.PHONY : TheaterRoom.cpp.o
+
+TheaterRoom.i: TheaterRoom.cpp.i
+
+.PHONY : TheaterRoom.i
+
+# target to preprocess a source file
+TheaterRoom.cpp.i:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/TheaterRoom.cpp.i
+.PHONY : TheaterRoom.cpp.i
+
+TheaterRoom.s: TheaterRoom.cpp.s
+
+.PHONY : TheaterRoom.s
+
+# target to generate assembly for a file
+TheaterRoom.cpp.s:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/TheaterRoom.cpp.s
+.PHONY : TheaterRoom.cpp.s
 
 main.o: main.cpp.o
 
@@ -246,9 +381,24 @@ help:
 	@echo "... BoxOffice.o"
 	@echo "... BoxOffice.i"
 	@echo "... BoxOffice.s"
+	@echo "... ConcessionItem.o"
+	@echo "... ConcessionItem.i"
+	@echo "... ConcessionItem.s"
+	@echo "... LinkedList.o"
+	@echo "... LinkedList.i"
+	@echo "... LinkedList.s"
+	@echo "... LinkedNode.o"
+	@echo "... LinkedNode.i"
+	@echo "... LinkedNode.s"
+	@echo "... MasterTester.o"
+	@echo "... MasterTester.i"
+	@echo "... MasterTester.s"
 	@echo "... Movie.o"
 	@echo "... Movie.i"
 	@echo "... Movie.s"
+	@echo "... TheaterRoom.o"
+	@echo "... TheaterRoom.i"
+	@echo "... TheaterRoom.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
