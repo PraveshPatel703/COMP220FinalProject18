@@ -11,7 +11,7 @@ class ConcessionStand{
 private:
     float totalIncome;
 public:
-    ConcessionStand(){};
+    ConcessionStand();
 };
 
 #endif //COMP220FINALPROJECT18_CONCESSIONSTAND_H

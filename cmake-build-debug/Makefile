@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/Matt/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/Matt/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18
+CMAKE_SOURCE_DIR = /Users/PraveshPatel/CLionProjects/COMP220FinalProject18
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/PraveshPatel/CLionProjects/COMP220FinalProject18/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18/
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/cygdrive/c/Users/Matt/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/cygdrive/c/Users/Matt/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18/cmake-build-debug/CMakeFiles /cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/PraveshPatel/CLionProjects/COMP220FinalProject18/cmake-build-debug/CMakeFiles /Users/PraveshPatel/CLionProjects/COMP220FinalProject18/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/PraveshPatel/CLionProjects/COMP220FinalProject18/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,113 +123,86 @@ COMP220FinalProject18/fast:
 	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/build
 .PHONY : COMP220FinalProject18/fast
 
-ConcessionItem.o: ConcessionItem.cpp.o
+ArrayList.o: ArrayList.cpp.o
 
-.PHONY : ConcessionItem.o
-
-# target to build an object file
-ConcessionItem.cpp.o:
-	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/ConcessionItem.cpp.o
-.PHONY : ConcessionItem.cpp.o
-
-ConcessionItem.i: ConcessionItem.cpp.i
-
-.PHONY : ConcessionItem.i
-
-# target to preprocess a source file
-ConcessionItem.cpp.i:
-	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/ConcessionItem.cpp.i
-.PHONY : ConcessionItem.cpp.i
-
-ConcessionItem.s: ConcessionItem.cpp.s
-
-.PHONY : ConcessionItem.s
-
-# target to generate assembly for a file
-ConcessionItem.cpp.s:
-	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/ConcessionItem.cpp.s
-.PHONY : ConcessionItem.cpp.s
-
-LinkedNode.o: LinkedNode.cpp.o
-
-.PHONY : LinkedNode.o
+.PHONY : ArrayList.o
 
 # target to build an object file
-LinkedNode.cpp.o:
-	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/LinkedNode.cpp.o
-.PHONY : LinkedNode.cpp.o
+ArrayList.cpp.o:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/ArrayList.cpp.o
+.PHONY : ArrayList.cpp.o
 
-LinkedNode.i: LinkedNode.cpp.i
+ArrayList.i: ArrayList.cpp.i
 
-.PHONY : LinkedNode.i
+.PHONY : ArrayList.i
 
 # target to preprocess a source file
-LinkedNode.cpp.i:
-	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/LinkedNode.cpp.i
-.PHONY : LinkedNode.cpp.i
+ArrayList.cpp.i:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/ArrayList.cpp.i
+.PHONY : ArrayList.cpp.i
 
-LinkedNode.s: LinkedNode.cpp.s
+ArrayList.s: ArrayList.cpp.s
 
-.PHONY : LinkedNode.s
+.PHONY : ArrayList.s
 
 # target to generate assembly for a file
-LinkedNode.cpp.s:
-	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/LinkedNode.cpp.s
-.PHONY : LinkedNode.cpp.s
+ArrayList.cpp.s:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/ArrayList.cpp.s
+.PHONY : ArrayList.cpp.s
 
-MasterTester.o: MasterTester.cpp.o
+BoxOffice.o: BoxOffice.cpp.o
 
-.PHONY : MasterTester.o
+.PHONY : BoxOffice.o
 
 # target to build an object file
-MasterTester.cpp.o:
-	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.o
-.PHONY : MasterTester.cpp.o
+BoxOffice.cpp.o:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/BoxOffice.cpp.o
+.PHONY : BoxOffice.cpp.o
 
-MasterTester.i: MasterTester.cpp.i
+BoxOffice.i: BoxOffice.cpp.i
 
-.PHONY : MasterTester.i
+.PHONY : BoxOffice.i
 
 # target to preprocess a source file
-MasterTester.cpp.i:
-	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.i
-.PHONY : MasterTester.cpp.i
+BoxOffice.cpp.i:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/BoxOffice.cpp.i
+.PHONY : BoxOffice.cpp.i
 
-MasterTester.s: MasterTester.cpp.s
+BoxOffice.s: BoxOffice.cpp.s
 
-.PHONY : MasterTester.s
+.PHONY : BoxOffice.s
 
 # target to generate assembly for a file
-MasterTester.cpp.s:
-	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.s
-.PHONY : MasterTester.cpp.s
+BoxOffice.cpp.s:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/BoxOffice.cpp.s
+.PHONY : BoxOffice.cpp.s
 
-TheaterRoom.o: TheaterRoom.cpp.o
+Movie.o: Movie.cpp.o
 
-.PHONY : TheaterRoom.o
+.PHONY : Movie.o
 
 # target to build an object file
-TheaterRoom.cpp.o:
-	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/TheaterRoom.cpp.o
-.PHONY : TheaterRoom.cpp.o
+Movie.cpp.o:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/Movie.cpp.o
+.PHONY : Movie.cpp.o
 
-TheaterRoom.i: TheaterRoom.cpp.i
+Movie.i: Movie.cpp.i
 
-.PHONY : TheaterRoom.i
+.PHONY : Movie.i
 
 # target to preprocess a source file
-TheaterRoom.cpp.i:
-	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/TheaterRoom.cpp.i
-.PHONY : TheaterRoom.cpp.i
+Movie.cpp.i:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/Movie.cpp.i
+.PHONY : Movie.cpp.i
 
-TheaterRoom.s: TheaterRoom.cpp.s
+Movie.s: Movie.cpp.s
 
-.PHONY : TheaterRoom.s
+.PHONY : Movie.s
 
 # target to generate assembly for a file
-TheaterRoom.cpp.s:
-	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/TheaterRoom.cpp.s
-.PHONY : TheaterRoom.cpp.s
+Movie.cpp.s:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/Movie.cpp.s
+.PHONY : Movie.cpp.s
 
 main.o: main.cpp.o
 
@@ -265,20 +238,17 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... COMP220FinalProject18"
 	@echo "... edit_cache"
-	@echo "... ConcessionItem.o"
-	@echo "... ConcessionItem.i"
-	@echo "... ConcessionItem.s"
-	@echo "... LinkedNode.o"
-	@echo "... LinkedNode.i"
-	@echo "... LinkedNode.s"
-	@echo "... MasterTester.o"
-	@echo "... MasterTester.i"
-	@echo "... MasterTester.s"
-	@echo "... TheaterRoom.o"
-	@echo "... TheaterRoom.i"
-	@echo "... TheaterRoom.s"
+	@echo "... COMP220FinalProject18"
+	@echo "... ArrayList.o"
+	@echo "... ArrayList.i"
+	@echo "... ArrayList.s"
+	@echo "... BoxOffice.o"
+	@echo "... BoxOffice.i"
+	@echo "... BoxOffice.s"
+	@echo "... Movie.o"
+	@echo "... Movie.i"
+	@echo "... Movie.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
