@@ -4,9 +4,10 @@
 #include "ConcessionStand.h"
 
 
+
 ConcessionStand::ConcessionStand(){
     this->totalIncome = 0.00;
-    this->menu =
+    this->menu = new ;
 };
 
 ConcessionStand::~ConcessionStand(){
@@ -17,6 +18,14 @@ ConcessionStand::~ConcessionStand(){
 float ConcessionStand::getTotalIncome(){
     return totalIncome;
 };
+
+void ConcessionStand::itemSold(std::string itemSold) {
+
+}
+
+void ConcessionStand::addToIncome(std::string itemSold){
+    menu->find(itemSold)
+}
 
 //adds a new item to concession menu
 void ConcessionStand::addToMenu(ConcessionItem newItem){

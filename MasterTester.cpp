@@ -8,9 +8,22 @@
 #include "Movie.h"
 #include "BoxOffice.h"
 
+int testConcessionItem(){
+    ConcessionItem c1 = ConcessionItem("fritos",10,2.00);
+    ConcessionItem c2 = ConcessionItem("pepsi",15,3.00);
+    ConcessionItem C3 = ConcessionItem("popcorn",20,4.00);
+    std::cout<<c1.getItem()<<std::endl;
+    std::cout<<c1.getPrice()<<std::endl;
+    std::cout<<c1.getStock()<<std::endl;
+    std::cout<<c1.
+return 0;
+}
+
 
 int main(){
 //testing 2.0
+
+    testConcessionItem();
 
     BoxOffice *BO = new BoxOffice(4, 1.3);
 

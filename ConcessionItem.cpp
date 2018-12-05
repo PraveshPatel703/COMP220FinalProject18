@@ -29,6 +29,10 @@
         stock = stock + amountToAdd;
     };
 
+    void ConcessionItem::subFromStock(int amountToSub) {
+        stock = stock - amountToSub;
+    }
+
     void ConcessionItem::setPrice(float newPrice){
         price = newPrice;
     };

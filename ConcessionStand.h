@@ -20,6 +20,11 @@ public:
 
     float getTotalIncome();
 
+    void itemSold(std::string itemSold);
+
+
+    void addToIncome(std::string itemSold);
+
     //adds a new item to concession menu
     void addToMenu(ConcessionItem newItem);
 

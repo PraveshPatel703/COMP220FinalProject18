@@ -7,7 +7,7 @@
 
 #include <string>
 
-class ConcessionItem {
+class ConcessionItem{
 private:
     std::string itemName;
     int stock;
@@ -27,8 +27,11 @@ public:
     //gets price of this item
     float getPrice();
 
-    //changes stock of the item
+    //adds to stock of the item
     void addToStock(int amountToAdd);
+
+    //subtracts from stock
+    void subFromStock(int amountToSub);
 
     //changes price of the item
     void setPrice(float newPrice);
