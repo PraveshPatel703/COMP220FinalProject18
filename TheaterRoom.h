@@ -6,6 +6,7 @@
 #define COMP220FINALPROJECT18_THEATERROOM_H
 
 #include "LinkedNode.h"
+#include <string>
 
 
 class TheaterRoom {

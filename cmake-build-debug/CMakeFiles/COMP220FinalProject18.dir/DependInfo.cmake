@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18/ConcessionItem.cpp" "/cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/ConcessionItem.cpp.o"
-  "/cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18/LinkedNode.cpp" "/cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/LinkedNode.cpp.o"
-  "/cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18/MasterTester.cpp" "/cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.o"
-  "/cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18/TheaterRoom.cpp" "/cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/TheaterRoom.cpp.o"
-  "/cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18/main.cpp" "/cygdrive/c/Users/Matt/Desktop/COMP220/COMP220FinalProject18/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/main.cpp.o"
+  "/Users/Bryan/CLionProjects/COMP220FinalProject!/ConcessionItem.cpp" "/Users/Bryan/CLionProjects/COMP220FinalProject!/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/ConcessionItem.cpp.o"
+  "/Users/Bryan/CLionProjects/COMP220FinalProject!/LinkedNode.cpp" "/Users/Bryan/CLionProjects/COMP220FinalProject!/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/LinkedNode.cpp.o"
+  "/Users/Bryan/CLionProjects/COMP220FinalProject!/MasterTester.cpp" "/Users/Bryan/CLionProjects/COMP220FinalProject!/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.o"
+  "/Users/Bryan/CLionProjects/COMP220FinalProject!/TheaterRoom.cpp" "/Users/Bryan/CLionProjects/COMP220FinalProject!/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/TheaterRoom.cpp.o"
+  "/Users/Bryan/CLionProjects/COMP220FinalProject!/main.cpp" "/Users/Bryan/CLionProjects/COMP220FinalProject!/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
