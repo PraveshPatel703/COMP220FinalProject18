@@ -4,27 +4,31 @@
 
 #include "ConcessionItem.h"
 #include <string>
-class ConcessionItem{
-private:
-    std::string itemName;
-    int stock;
-    float price;
 
-public:
-    ConcessionItem(std::string itemName, int stock, float price){};
-
-    ~ConcessionItem(){};
-
-    std::string getItem(){};
-
-    int getStock(){};
-
-    float getPrice(){};
-
-    void setStock(){};
-
-    void setPrice(){};
-
-
-
+    ConcessionItem::ConcessionItem(std::string itemName, int stock, float price){
+    this->itemName = itemName;
+    this->stock = stock;
+    this->price = price;
 };
+
+    ConcessionItem::~ConcessionItem(){};
+
+    std::string ConcessionItem::getItem(){
+        return itemName;
+    };
+
+    int ConcessionItem::getStock(){
+        return stock;
+    };
+
+    float ConcessionItem::getPrice(){
+        return price;
+    };
+
+    void ConcessionItem::addToStock(int amountToAdd){
+        stock = stock + amountToAdd;
+    };
+
+    void ConcessionItem::setPrice(float newPrice){
+        price = newPrice;
+    };

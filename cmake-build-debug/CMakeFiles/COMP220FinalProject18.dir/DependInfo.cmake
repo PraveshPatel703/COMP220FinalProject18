@@ -4,12 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/PraveshPatel/CLionProjects/COMP220FinalProject18/ArrayList.cpp" "/Users/PraveshPatel/CLionProjects/COMP220FinalProject18/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/ArrayList.cpp.o"
-  "/Users/PraveshPatel/CLionProjects/COMP220FinalProject18/BoxOffice.cpp" "/Users/PraveshPatel/CLionProjects/COMP220FinalProject18/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/BoxOffice.cpp.o"
-  "/Users/PraveshPatel/CLionProjects/COMP220FinalProject18/MasterTester.cpp" "/Users/PraveshPatel/CLionProjects/COMP220FinalProject18/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.o"
-  "/Users/PraveshPatel/CLionProjects/COMP220FinalProject18/Movie.cpp" "/Users/PraveshPatel/CLionProjects/COMP220FinalProject18/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/Movie.cpp.o"
+  "/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ArrayList.cpp" "/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/ArrayList.cpp.o"
+  "/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/BoxOffice.cpp" "/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/BoxOffice.cpp.o"
+  "/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ConcessionItem.cpp" "/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/ConcessionItem.cpp.o"
+  "/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/MasterTester.cpp" "/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.o"
+  "/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Movie.cpp" "/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/Movie.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
