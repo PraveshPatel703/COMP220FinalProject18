@@ -18,19 +18,19 @@ private:
     int ticketsSold = 0;
     int movieTime;
     float duration;
-    int roomNumber;
-    Movie* currentMovies = new Movie[5]();
+    //Movie* currentMovies = new Movie[5]();
 
 public:
 
-    BoxOffice(int movieTimeIn,float durationIn, int roomNumberIn);
+    BoxOffice(int movieTimeIn,float durationIn);
     ~BoxOffice();
     void changeTicketPrice(float newTicketPrice);
     float getTicketPrice();
     int getMovieTime();
     float getDuration();
-    int getRoomNumber();
-    void setMovieToRoom(Movie[], int roomNumber);
+    //void setMovieToRoom(Movie[], int roomNumber);
+    void updateTicketsSold();
+    int getTicketsSold();
 
 
 };

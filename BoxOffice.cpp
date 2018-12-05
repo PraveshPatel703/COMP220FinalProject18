@@ -7,17 +7,17 @@
 #include <string>
 #include "ArrayList.h"
 
-BoxOffice::BoxOffice(int movieTimeIn, float durationIn, int roomNumberIn) {
+BoxOffice::BoxOffice(int movieTimeIn, float durationIn) {
     this->ticketPrice;
     this->ticketsSold;
     this->movieTime = movieTimeIn;
-    this->roomNumber = roomNumberIn;
-    Movie* currentMovies = new Movie[5](); //? - having issue here
+    //Movie* currentMovies = new Movie[5](); //? - having issue here
+    this->duration = durationIn;
 }
 
-BoxOffice::~BoxOffice() {
-    delete currentMovies;
-}
+//BoxOffice::~BoxOffice() {
+    //delete currentMovies;
+//}
 
 float BoxOffice::getTicketPrice() {
     return ticketPrice;
@@ -25,10 +25,6 @@ float BoxOffice::getTicketPrice() {
 
 void BoxOffice::changeTicketPrice(float newTicketPrice) {
     ticketPrice = newTicketPrice;
-}
-
-int BoxOffice::getRoomNumber() {
-    return roomNumber;
 }
 
 int BoxOffice::getMovieTime() {
@@ -39,7 +35,14 @@ float BoxOffice::getDuration() {
     return duration;
 }
 
+void BoxOffice::updateTicketsSold() {
+    ticketsSold++;
+}
+
+int BoxOffice::getTicketsSold() {
+    return ticketsSold;
+}
 
 //currently working on this function... Please help if you can!!
 // selects movies from the larger list of movies playable to the theater "playlist"
-void BoxOffice::setMovieToRoom(ArrayList* currentMovies, int roomNumber) {}
+//void BoxOffice::setMovieToRoom(ArrayList* currentMovies, int roomNumber) {}
