@@ -7,29 +7,26 @@
 
 #include "ConcessionItem.h"
 #include"List.h"
+#include "Map.h"
 
 class ConcessionStand{
 private:
     float totalIncome;
-    List* menu;
+    Map<ConcessionItem>* menu;
+    List* currentOrder;
 public:
     ConcessionStand();
 
-    ~ConcessionStand();
+    ConcessionStand(const ConcessionStand &concesstionToCopy);
 
+    ConcessionStand& operator=(const ConcessionStand &concessionStand);
+
+    ~ConcessionStand();
 
     float getTotalIncome();
 
-    void itemSold(std::string itemSold);
-
-
-    void addToIncome(std::string itemSold);
-
-    //adds a new item to concession menu
-    void addToMenu(ConcessionItem newItem);
-
-    //removes an item from the concession menu
-    void removeFromMenu(ConcessionItem itemToRemove);
+    //adds an the item to the order and subtracts stock amount from the item in the menu
+    void itemSold(std::string itemSold, int amountBought);
 
     //prints the whole menu out
     std::string printMenu();

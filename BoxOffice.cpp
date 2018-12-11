@@ -7,12 +7,10 @@
 #include <string>
 #include "ArrayList.h"
 
-BoxOffice::BoxOffice(int movieTimeIn, float durationIn) {
+BoxOffice::BoxOffice() {
     this->ticketPrice;
     this->ticketsSold;
-    this->movieTime = movieTimeIn;
     //Movie* currentMovies = new Movie[5](); //? - having issue here
-    this->duration = durationIn;
 }
 
 //BoxOffice::~BoxOffice() {

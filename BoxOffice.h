@@ -22,7 +22,7 @@ private:
 
 public:
 
-    BoxOffice(int movieTimeIn,float durationIn);
+    BoxOffice();
     ~BoxOffice();
     void changeTicketPrice(float newTicketPrice);
     float getTicketPrice();

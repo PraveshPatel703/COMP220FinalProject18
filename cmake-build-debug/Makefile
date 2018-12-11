@@ -285,6 +285,60 @@ Movie.cpp.s:
 	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/Movie.cpp.s
 .PHONY : Movie.cpp.s
 
+MovieTheater.o: MovieTheater.cpp.o
+
+.PHONY : MovieTheater.o
+
+# target to build an object file
+MovieTheater.cpp.o:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/MovieTheater.cpp.o
+.PHONY : MovieTheater.cpp.o
+
+MovieTheater.i: MovieTheater.cpp.i
+
+.PHONY : MovieTheater.i
+
+# target to preprocess a source file
+MovieTheater.cpp.i:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/MovieTheater.cpp.i
+.PHONY : MovieTheater.cpp.i
+
+MovieTheater.s: MovieTheater.cpp.s
+
+.PHONY : MovieTheater.s
+
+# target to generate assembly for a file
+MovieTheater.cpp.s:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/MovieTheater.cpp.s
+.PHONY : MovieTheater.cpp.s
+
+TheaterRoom.o: TheaterRoom.cpp.o
+
+.PHONY : TheaterRoom.o
+
+# target to build an object file
+TheaterRoom.cpp.o:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/TheaterRoom.cpp.o
+.PHONY : TheaterRoom.cpp.o
+
+TheaterRoom.i: TheaterRoom.cpp.i
+
+.PHONY : TheaterRoom.i
+
+# target to preprocess a source file
+TheaterRoom.cpp.i:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/TheaterRoom.cpp.i
+.PHONY : TheaterRoom.cpp.i
+
+TheaterRoom.s: TheaterRoom.cpp.s
+
+.PHONY : TheaterRoom.s
+
+# target to generate assembly for a file
+TheaterRoom.cpp.s:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/TheaterRoom.cpp.s
+.PHONY : TheaterRoom.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -312,6 +366,12 @@ help:
 	@echo "... Movie.o"
 	@echo "... Movie.i"
 	@echo "... Movie.s"
+	@echo "... MovieTheater.o"
+	@echo "... MovieTheater.i"
+	@echo "... MovieTheater.s"
+	@echo "... TheaterRoom.o"
+	@echo "... TheaterRoom.i"
+	@echo "... TheaterRoom.s"
 .PHONY : help
 
 

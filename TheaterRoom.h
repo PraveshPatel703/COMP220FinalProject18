@@ -6,6 +6,7 @@
 #define COMP220FINALPROJECT18_THEATERROOM_H
 
 #include "LinkedNode.h"
+#include "Movie.h"
 #include <string>
 
 
@@ -13,14 +14,25 @@ class TheaterRoom {
 private:
     int seatCount;
     int roomNumber;
+    Movie moviePlaying;
 
 public:
-    TheaterRoom(int seatCount, int roomNumber){};
+    TheaterRoom(int seatCount, int roomNumber, Movie moviePlaying){};
 
     ~TheaterRoom(){};
 
     // get a theater room
-    int getRoom(int roomNumber);
+    int getRoom();
+
+    //gets seat count
+    int getSeatCount();
+
+    //gets the current movie playing in this theater
+    Movie getMoviePlaying();
+
+    //changes the movie playing
+    void setMovie();
+
 
 };
 
