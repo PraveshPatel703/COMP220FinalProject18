@@ -6,9 +6,9 @@
 #define COMP220FINALPROJECT18_BOXOFFICE_H
 
 #include "string"
-#include "LinkedList.h"
-#include "Movie.h"
-#include "ArrayList.h"
+#include "../ADTs/LinkedList.h"
+#include "../Movie.h"
+#include "../ADTs/ArrayList.h"
 
 class BoxOffice{
 

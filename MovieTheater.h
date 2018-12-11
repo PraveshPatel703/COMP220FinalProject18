@@ -5,8 +5,8 @@
 #ifndef COMP220FINALPROJECT18_MOVIETHEATER_H
 #define COMP220FINALPROJECT18_MOVIETHEATER_H
 
-#include "BoxOffice.h"
-#include "ConcessionStand.h"
+#include "Boxoffice/BoxOffice.h"
+#include "Concessions/ConcessionStand.h"
 
 class MovieTheater {
 private:

@@ -3,9 +3,9 @@
 //
 
 #include "BoxOffice.h"
-#include "Movie.h"
+#include "../Movie.h"
 #include <string>
-#include "ArrayList.h"
+#include "../ADTs/ArrayList.h"
 
 BoxOffice::BoxOffice() {
     this->ticketPrice;

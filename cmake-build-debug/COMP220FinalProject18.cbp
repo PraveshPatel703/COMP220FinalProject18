@@ -80,40 +80,43 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/ArrayList.cpp">
+			<Option target="COMP220FinalProject18"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/ArrayList.h">
+			<Option target="COMP220FinalProject18"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/LinkedList.h">
+			<Option target="COMP220FinalProject18"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/LinkedNode.h">
+			<Option target="COMP220FinalProject18"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/List.h">
+			<Option target="COMP220FinalProject18"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ArrayLib.h">
 			<Option target="COMP220FinalProject18"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ArrayList.cpp">
+		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Boxoffice/BoxOffice.cpp">
 			<Option target="COMP220FinalProject18"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ArrayList.h">
+		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Boxoffice/BoxOffice.h">
 			<Option target="COMP220FinalProject18"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/BoxOffice.cpp">
+		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Boxoffice/TheaterRoom.cpp">
 			<Option target="COMP220FinalProject18"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/BoxOffice.h">
+		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Concessions/ConcessionItem.cpp">
 			<Option target="COMP220FinalProject18"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ConcessionItem.cpp">
+		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Concessions/ConcessionItem.h">
 			<Option target="COMP220FinalProject18"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ConcessionItem.h">
+		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Concessions/ConcessionStand.cpp">
 			<Option target="COMP220FinalProject18"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ConcessionStand.cpp">
-			<Option target="COMP220FinalProject18"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ConcessionStand.h">
-			<Option target="COMP220FinalProject18"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/LinkedList.h">
-			<Option target="COMP220FinalProject18"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/LinkedNode.h">
-			<Option target="COMP220FinalProject18"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/List.h">
+		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Concessions/ConcessionStand.h">
 			<Option target="COMP220FinalProject18"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/MasterTester.cpp">
@@ -129,12 +132,6 @@
 			<Option target="COMP220FinalProject18"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/MovieTheater.h">
-			<Option target="COMP220FinalProject18"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/TheaterRoom.cpp">
-			<Option target="COMP220FinalProject18"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/TheaterRoom.h">
 			<Option target="COMP220FinalProject18"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/CMakeLists.txt">

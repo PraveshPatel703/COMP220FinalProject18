@@ -4,7 +4,7 @@
 
 #include <iostream>
 #include "ArrayList.h"
-#include "ArrayLib.h"
+#include "../ArrayLib.h"
 #include <string>
 
 

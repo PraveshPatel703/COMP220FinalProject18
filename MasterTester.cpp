@@ -2,11 +2,11 @@
 // Created by Bryan Pruett on 12/4/18.
 //
 #include "iostream"
-#include "ConcessionItem.h"
-#include "ConcessionStand.h"
-#include "TheaterRoom.h"
+#include "Concessions/ConcessionItem.h"
+#include "Concessions/ConcessionStand.h"
+#include "Boxoffice/TheaterRoom.h"
 #include "Movie.h"
-#include "BoxOffice.h"
+#include "Boxoffice/BoxOffice.h"
 
 void testConcessionItem(){
     ConcessionItem c1 = ConcessionItem("fritos",10,2.00);

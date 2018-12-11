@@ -6,8 +6,8 @@
 #define COMP220FINALPROJECT18_CONCESSIONSTAND_H
 
 #include "ConcessionItem.h"
-#include"List.h"
-#include "Map.h"
+#include"../ADTs/List.h"
+#include "../ADTs/Map.h"
 
 class ConcessionStand{
 private:

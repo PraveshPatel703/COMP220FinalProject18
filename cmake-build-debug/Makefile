@@ -123,113 +123,140 @@ COMP220FinalProject18/fast:
 	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/build
 .PHONY : COMP220FinalProject18/fast
 
-ArrayList.o: ArrayList.cpp.o
+ADTs/ArrayList.o: ADTs/ArrayList.cpp.o
 
-.PHONY : ArrayList.o
-
-# target to build an object file
-ArrayList.cpp.o:
-	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/ArrayList.cpp.o
-.PHONY : ArrayList.cpp.o
-
-ArrayList.i: ArrayList.cpp.i
-
-.PHONY : ArrayList.i
-
-# target to preprocess a source file
-ArrayList.cpp.i:
-	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/ArrayList.cpp.i
-.PHONY : ArrayList.cpp.i
-
-ArrayList.s: ArrayList.cpp.s
-
-.PHONY : ArrayList.s
-
-# target to generate assembly for a file
-ArrayList.cpp.s:
-	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/ArrayList.cpp.s
-.PHONY : ArrayList.cpp.s
-
-BoxOffice.o: BoxOffice.cpp.o
-
-.PHONY : BoxOffice.o
+.PHONY : ADTs/ArrayList.o
 
 # target to build an object file
-BoxOffice.cpp.o:
-	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/BoxOffice.cpp.o
-.PHONY : BoxOffice.cpp.o
+ADTs/ArrayList.cpp.o:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/ADTs/ArrayList.cpp.o
+.PHONY : ADTs/ArrayList.cpp.o
 
-BoxOffice.i: BoxOffice.cpp.i
+ADTs/ArrayList.i: ADTs/ArrayList.cpp.i
 
-.PHONY : BoxOffice.i
+.PHONY : ADTs/ArrayList.i
 
 # target to preprocess a source file
-BoxOffice.cpp.i:
-	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/BoxOffice.cpp.i
-.PHONY : BoxOffice.cpp.i
+ADTs/ArrayList.cpp.i:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/ADTs/ArrayList.cpp.i
+.PHONY : ADTs/ArrayList.cpp.i
 
-BoxOffice.s: BoxOffice.cpp.s
+ADTs/ArrayList.s: ADTs/ArrayList.cpp.s
 
-.PHONY : BoxOffice.s
+.PHONY : ADTs/ArrayList.s
 
 # target to generate assembly for a file
-BoxOffice.cpp.s:
-	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/BoxOffice.cpp.s
-.PHONY : BoxOffice.cpp.s
+ADTs/ArrayList.cpp.s:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/ADTs/ArrayList.cpp.s
+.PHONY : ADTs/ArrayList.cpp.s
 
-ConcessionItem.o: ConcessionItem.cpp.o
+Boxoffice/BoxOffice.o: Boxoffice/BoxOffice.cpp.o
 
-.PHONY : ConcessionItem.o
+.PHONY : Boxoffice/BoxOffice.o
 
 # target to build an object file
-ConcessionItem.cpp.o:
-	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/ConcessionItem.cpp.o
-.PHONY : ConcessionItem.cpp.o
+Boxoffice/BoxOffice.cpp.o:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/Boxoffice/BoxOffice.cpp.o
+.PHONY : Boxoffice/BoxOffice.cpp.o
 
-ConcessionItem.i: ConcessionItem.cpp.i
+Boxoffice/BoxOffice.i: Boxoffice/BoxOffice.cpp.i
 
-.PHONY : ConcessionItem.i
+.PHONY : Boxoffice/BoxOffice.i
 
 # target to preprocess a source file
-ConcessionItem.cpp.i:
-	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/ConcessionItem.cpp.i
-.PHONY : ConcessionItem.cpp.i
+Boxoffice/BoxOffice.cpp.i:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/Boxoffice/BoxOffice.cpp.i
+.PHONY : Boxoffice/BoxOffice.cpp.i
 
-ConcessionItem.s: ConcessionItem.cpp.s
+Boxoffice/BoxOffice.s: Boxoffice/BoxOffice.cpp.s
 
-.PHONY : ConcessionItem.s
+.PHONY : Boxoffice/BoxOffice.s
 
 # target to generate assembly for a file
-ConcessionItem.cpp.s:
-	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/ConcessionItem.cpp.s
-.PHONY : ConcessionItem.cpp.s
+Boxoffice/BoxOffice.cpp.s:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/Boxoffice/BoxOffice.cpp.s
+.PHONY : Boxoffice/BoxOffice.cpp.s
 
-ConcessionStand.o: ConcessionStand.cpp.o
+Boxoffice/TheaterRoom.o: Boxoffice/TheaterRoom.cpp.o
 
-.PHONY : ConcessionStand.o
+.PHONY : Boxoffice/TheaterRoom.o
 
 # target to build an object file
-ConcessionStand.cpp.o:
-	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/ConcessionStand.cpp.o
-.PHONY : ConcessionStand.cpp.o
+Boxoffice/TheaterRoom.cpp.o:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/Boxoffice/TheaterRoom.cpp.o
+.PHONY : Boxoffice/TheaterRoom.cpp.o
 
-ConcessionStand.i: ConcessionStand.cpp.i
+Boxoffice/TheaterRoom.i: Boxoffice/TheaterRoom.cpp.i
 
-.PHONY : ConcessionStand.i
+.PHONY : Boxoffice/TheaterRoom.i
 
 # target to preprocess a source file
-ConcessionStand.cpp.i:
-	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/ConcessionStand.cpp.i
-.PHONY : ConcessionStand.cpp.i
+Boxoffice/TheaterRoom.cpp.i:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/Boxoffice/TheaterRoom.cpp.i
+.PHONY : Boxoffice/TheaterRoom.cpp.i
 
-ConcessionStand.s: ConcessionStand.cpp.s
+Boxoffice/TheaterRoom.s: Boxoffice/TheaterRoom.cpp.s
 
-.PHONY : ConcessionStand.s
+.PHONY : Boxoffice/TheaterRoom.s
 
 # target to generate assembly for a file
-ConcessionStand.cpp.s:
-	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/ConcessionStand.cpp.s
-.PHONY : ConcessionStand.cpp.s
+Boxoffice/TheaterRoom.cpp.s:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/Boxoffice/TheaterRoom.cpp.s
+.PHONY : Boxoffice/TheaterRoom.cpp.s
+
+Concessions/ConcessionItem.o: Concessions/ConcessionItem.cpp.o
+
+.PHONY : Concessions/ConcessionItem.o
+
+# target to build an object file
+Concessions/ConcessionItem.cpp.o:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/Concessions/ConcessionItem.cpp.o
+.PHONY : Concessions/ConcessionItem.cpp.o
+
+Concessions/ConcessionItem.i: Concessions/ConcessionItem.cpp.i
+
+.PHONY : Concessions/ConcessionItem.i
+
+# target to preprocess a source file
+Concessions/ConcessionItem.cpp.i:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/Concessions/ConcessionItem.cpp.i
+.PHONY : Concessions/ConcessionItem.cpp.i
+
+Concessions/ConcessionItem.s: Concessions/ConcessionItem.cpp.s
+
+.PHONY : Concessions/ConcessionItem.s
+
+# target to generate assembly for a file
+Concessions/ConcessionItem.cpp.s:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/Concessions/ConcessionItem.cpp.s
+.PHONY : Concessions/ConcessionItem.cpp.s
+
+Concessions/ConcessionStand.o: Concessions/ConcessionStand.cpp.o
+
+.PHONY : Concessions/ConcessionStand.o
+
+# target to build an object file
+Concessions/ConcessionStand.cpp.o:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/Concessions/ConcessionStand.cpp.o
+.PHONY : Concessions/ConcessionStand.cpp.o
+
+Concessions/ConcessionStand.i: Concessions/ConcessionStand.cpp.i
+
+.PHONY : Concessions/ConcessionStand.i
+
+# target to preprocess a source file
+Concessions/ConcessionStand.cpp.i:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/Concessions/ConcessionStand.cpp.i
+.PHONY : Concessions/ConcessionStand.cpp.i
+
+Concessions/ConcessionStand.s: Concessions/ConcessionStand.cpp.s
+
+.PHONY : Concessions/ConcessionStand.s
+
+# target to generate assembly for a file
+Concessions/ConcessionStand.cpp.s:
+	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/Concessions/ConcessionStand.cpp.s
+.PHONY : Concessions/ConcessionStand.cpp.s
 
 MasterTester.o: MasterTester.cpp.o
 
@@ -312,33 +339,6 @@ MovieTheater.cpp.s:
 	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/MovieTheater.cpp.s
 .PHONY : MovieTheater.cpp.s
 
-TheaterRoom.o: TheaterRoom.cpp.o
-
-.PHONY : TheaterRoom.o
-
-# target to build an object file
-TheaterRoom.cpp.o:
-	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/TheaterRoom.cpp.o
-.PHONY : TheaterRoom.cpp.o
-
-TheaterRoom.i: TheaterRoom.cpp.i
-
-.PHONY : TheaterRoom.i
-
-# target to preprocess a source file
-TheaterRoom.cpp.i:
-	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/TheaterRoom.cpp.i
-.PHONY : TheaterRoom.cpp.i
-
-TheaterRoom.s: TheaterRoom.cpp.s
-
-.PHONY : TheaterRoom.s
-
-# target to generate assembly for a file
-TheaterRoom.cpp.s:
-	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/TheaterRoom.cpp.s
-.PHONY : TheaterRoom.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -348,18 +348,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... COMP220FinalProject18"
 	@echo "... edit_cache"
-	@echo "... ArrayList.o"
-	@echo "... ArrayList.i"
-	@echo "... ArrayList.s"
-	@echo "... BoxOffice.o"
-	@echo "... BoxOffice.i"
-	@echo "... BoxOffice.s"
-	@echo "... ConcessionItem.o"
-	@echo "... ConcessionItem.i"
-	@echo "... ConcessionItem.s"
-	@echo "... ConcessionStand.o"
-	@echo "... ConcessionStand.i"
-	@echo "... ConcessionStand.s"
+	@echo "... ADTs/ArrayList.o"
+	@echo "... ADTs/ArrayList.i"
+	@echo "... ADTs/ArrayList.s"
+	@echo "... Boxoffice/BoxOffice.o"
+	@echo "... Boxoffice/BoxOffice.i"
+	@echo "... Boxoffice/BoxOffice.s"
+	@echo "... Boxoffice/TheaterRoom.o"
+	@echo "... Boxoffice/TheaterRoom.i"
+	@echo "... Boxoffice/TheaterRoom.s"
+	@echo "... Concessions/ConcessionItem.o"
+	@echo "... Concessions/ConcessionItem.i"
+	@echo "... Concessions/ConcessionItem.s"
+	@echo "... Concessions/ConcessionStand.o"
+	@echo "... Concessions/ConcessionStand.i"
+	@echo "... Concessions/ConcessionStand.s"
 	@echo "... MasterTester.o"
 	@echo "... MasterTester.i"
 	@echo "... MasterTester.s"
@@ -369,9 +372,6 @@ help:
 	@echo "... MovieTheater.o"
 	@echo "... MovieTheater.i"
 	@echo "... MovieTheater.s"
-	@echo "... TheaterRoom.o"
-	@echo "... TheaterRoom.i"
-	@echo "... TheaterRoom.s"
 .PHONY : help
 
 

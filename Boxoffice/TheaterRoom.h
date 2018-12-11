@@ -5,8 +5,8 @@
 #ifndef COMP220FINALPROJECT18_THEATERROOM_H
 #define COMP220FINALPROJECT18_THEATERROOM_H
 
-#include "LinkedNode.h"
-#include "Movie.h"
+#include "../ADTs/LinkedNode.h"
+#include "../Movie.h"
 #include <string>
 
 
