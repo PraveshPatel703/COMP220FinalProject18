@@ -95,6 +95,12 @@
 		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/List.h">
 			<Option target="COMP220FinalProject18"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/MapLinkedList.inl">
+			<Option target="COMP220FinalProject18"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/MapLinkedNode.inl">
+			<Option target="COMP220FinalProject18"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ArrayLib.h">
 			<Option target="COMP220FinalProject18"/>
 		</Unit>
@@ -105,6 +111,9 @@
 			<Option target="COMP220FinalProject18"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Boxoffice/TheaterRoom.cpp">
+			<Option target="COMP220FinalProject18"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Boxoffice/TheaterRoom.h">
 			<Option target="COMP220FinalProject18"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Concessions/ConcessionItem.cpp">

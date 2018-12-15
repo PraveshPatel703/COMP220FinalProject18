@@ -6,14 +6,14 @@
 #define COMP220FINALPROJECT18_CONCESSIONSTAND_H
 
 #include "ConcessionItem.h"
-#include"../ADTs/List.h"
 #include "../ADTs/Map.h"
+#include "../ADTs/MapLinkedList.h"
+#include "../ADTs/MapLinkedNode.h"
 
 class ConcessionStand{
 private:
     float totalIncome;
     Map<ConcessionItem>* menu;
-    List* currentOrder;
 public:
     ConcessionStand();
 

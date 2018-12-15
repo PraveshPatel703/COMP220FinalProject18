@@ -14,6 +14,8 @@ private:
     float price;
 
 public:
+    ConcessionItem();
+
     ConcessionItem(std::string itemName, int stock, float price);
 
     ~ConcessionItem();

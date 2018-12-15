@@ -11,6 +11,7 @@
 template <class T>
 class Map {
 public:
+
     //virtual destructor to allow child destructor to be called
     virtual ~Map(){}
 
@@ -31,6 +32,7 @@ public:
      * @return true if the given key is associated with a value in the map, false otherwise
      */
     virtual bool containsKey(std::string key) =0;
+
 };
 
 #endif //LAB9SOLN_MAP_H
