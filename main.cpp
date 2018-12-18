@@ -1,11 +1,11 @@
 #include <iostream>
 #include "string"
 #include "cmath"
-#include "ConcessionItem.h"
-#include "ConcessionStand.h"
-#include "TheaterRoom.h"
+#include "../COMP220FinalProject18/Concessions/ConcessionItem.h"
+#include "../COMP220FinalProject18/Concessions/ConcessionStand.h"
+#include "../COMP220FinalProject18/Boxoffice/BoxOffice.h"
+#include "../COMP220FinalProject18/Boxoffice/TheaterRoom.h"
 #include "Movie.h"
-#include "BoxOffice.h"
 using namespace std;
 
 
@@ -19,8 +19,8 @@ int main() {
     int totalIncome;
     int numOfTickets;
     int newTicketPrice;
-    ConcessionStand *food = new ConcessionStand();
-    BoxOffice *BO = new BoxOffice();
+    ConcessionStand* food = new ConcessionStand();
+    BoxOffice* BO = new BoxOffice();
     float price = BO->getTicketPrice();
     getline(cin,command);
     int end = 0;

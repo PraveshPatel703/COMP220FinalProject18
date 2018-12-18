@@ -5,11 +5,10 @@
 #include "TheaterRoom.h"
 
 
-TheaterRoom::TheaterRoom(int seatCount, int roomNumber, Movie moviePlaying){
+TheaterRoom::TheaterRoom(int seatCount, int roomNumber){
         //this function will create the rooms< currently we will set to a max of 5
         this->seatCount = seatCount;
         this->roomNumber = roomNumber;
-        this->moviePlaying = moviePlaying;
 }
 
 TheaterRoom::~TheaterRoom(){
@@ -30,7 +29,7 @@ Movie TheaterRoom::getMoviePlaying() {
 }
 
 void TheaterRoom::setMovie(Movie newMovie) {
-    moviePlaying = newMovie
+    moviePlaying = newMovie;
 }
 
 

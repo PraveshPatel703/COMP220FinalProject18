@@ -158,6 +158,9 @@
 		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/MovieTheater.h">
 			<Option target="COMP220FinalProject18"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/main.cpp">
+			<Option target="COMP220FinalProject18"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

@@ -9,8 +9,9 @@
 
 BoxOffice::BoxOffice() {
     this->ticketPrice;
-    this->ticketsSold;
-    //Movie* currentMovies = new Movie[5](); //? - having issue here
+    this->totalTicketsSold;
+    this->theaterList;
+    this->moviesInTheaters;
 }
 
 //BoxOffice::~BoxOffice() {
@@ -25,22 +26,6 @@ void BoxOffice::changeTicketPrice(float newTicketPrice) {
     ticketPrice = newTicketPrice;
 }
 
-int BoxOffice::getMovieTime() {
-    return movieTime;
+int BoxOffice::getTotalTicketsSold() {
+    return totalTicketsSold;
 }
-
-float BoxOffice::getDuration() {
-    return duration;
-}
-
-void BoxOffice::updateTicketsSold() {
-    ticketsSold++;
-}
-
-int BoxOffice::getTicketsSold() {
-    return ticketsSold;
-}
-
-//currently working on this function... Please help if you can!!
-// selects movies from the larger list of movies playable to the theater "playlist"
-//void BoxOffice::setMovieToRoom(ArrayList* currentMovies, int roomNumber) {}

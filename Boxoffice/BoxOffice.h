@@ -18,11 +18,9 @@ class BoxOffice{
 private:
 
     float ticketPrice = 10.00;
-    int ticketsSold = 0;
-    int movieTime;
-    float duration;
-    PriorityQueue<TheaterRoom>* theaterPriority = new LinkedPriorityQueueFastDequeue<TheaterRoom>;
-    List* moviesInTheaters = new ArrayList(5);
+    int totalTicketsSold = 0;
+    List* theaterList = new ArrayList(5);
+    PriorityQueue<TheaterRoom>* moviesInTheaters = new LinkedPriorityQueueFastDequeue<TheaterRoom>;
 
 
 public:
@@ -32,7 +30,7 @@ public:
     void changeTicketPrice(float newTicketPrice);
     float getTicketPrice();
     int getMovieTime();
-    int getTicketsSold();
+    int getTotalTicketsSold();
 
 
 };

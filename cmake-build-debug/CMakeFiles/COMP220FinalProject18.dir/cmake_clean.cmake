@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/COMP220FinalProject18.dir/Boxoffice/TheaterRoom.cpp.o"
   "CMakeFiles/COMP220FinalProject18.dir/Concessions/ConcessionStand.cpp.o"
   "CMakeFiles/COMP220FinalProject18.dir/MovieTheater.cpp.o"
+  "CMakeFiles/COMP220FinalProject18.dir/main.cpp.o"
   "COMP220FinalProject18.pdb"
   "COMP220FinalProject18.exe"
   "libCOMP220FinalProject18.dll.a"

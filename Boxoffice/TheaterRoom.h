@@ -13,11 +13,12 @@
 class TheaterRoom {
 private:
     int seatCount;
+    int ticketsSold;
     int roomNumber;
     Movie moviePlaying;
 
 public:
-    TheaterRoom(int seatCount, int roomNumber, Movie moviePlaying);
+    TheaterRoom(int seatCount, int roomNumber);
 
     ~TheaterRoom();
 
