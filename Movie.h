@@ -18,7 +18,7 @@ private:
 
 public:
 
-    Movie();
+    Movie(std::string title, std::string genre, float rating, float duration);
     ~Movie();
     std::string getName();
     std::string getGenre();

@@ -1,16 +1,24 @@
 #include <iostream>
 #include "string"
 #include "cmath"
-#include "../COMP220FinalProject18/Concessions/ConcessionItem.h"
-#include "../COMP220FinalProject18/Concessions/ConcessionStand.h"
-#include "../COMP220FinalProject18/Boxoffice/BoxOffice.h"
-#include "../COMP220FinalProject18/Boxoffice/TheaterRoom.h"
+#include "../Final Project v3/Concessions/ConcessionItem.h"
+#include "../Final Project v3/Concessions/ConcessionStand.h"
+#include "../Final Project v3/Boxoffice/BoxOffice.h"
+#include "../Final Project v3/Boxoffice/TheaterRoom.h"
 #include "Movie.h"
 using namespace std;
 
 
 
 int main() {
+
+    Movie* movie1 = new Movie("Averngers", "Action", 4.5, 2.0);
+    Movie* movie2 = new Movie("Happy Gilmore", "Comedy", 4.7, 1.6);
+    Movie* movie3 = new Movie("Ice Age", "Family", 3.0, 1.5);
+    Movie* movie4 = new Movie("Get Out", "Horror", 2.7, 1.8);
+    Movie* movie5 = new Movie("Star Wars", "Sci Fi", 5.0, 1.75);
+
+
     std::cout<<"------------Welcome To Your Movie Theater------------"<<std::endl;
     std::cout<<"Type /help if you need a list of commands!"<<std::endl;
     string command;
