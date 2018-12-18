@@ -7,15 +7,15 @@
 #include <string>
 #include "../ADTs/ArrayList.h"
 
-BoxOffice::BoxOffice() {
-    this->ticketPrice;
-    this->totalTicketsSold;
-    this->theaterList;
-    this->moviesInTheaters;
+BoxOffice::BoxOffice(MapLinkedList<TheaterRoom>* theaterRoomList, LinkedPriorityQueueFastDequeue<Movie>* moviesInTheaters) {
+    this->ticketPrice = 10.00;
+    this->totalTicketsSold = 0;
+    this->theaterList = theaterRoomList;
+    this->moviesInTheaters = moviesInTheaters;
 }
 
 //BoxOffice::~BoxOffice() {
-    //delete currentMovies;
+
 //}
 
 float BoxOffice::getTicketPrice() {

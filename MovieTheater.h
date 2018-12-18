@@ -12,7 +12,7 @@ class MovieTheater {
 private:
     BoxOffice myBoxOffice;
     ConcessionStand myConcessionStand;
-    float totalIncome = 0.0;
+    float totalIncome = 0;
 
 public:
     MovieTheater(BoxOffice newBoxOffice, ConcessionStand newConcessionStand);

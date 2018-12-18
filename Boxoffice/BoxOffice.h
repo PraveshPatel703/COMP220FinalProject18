@@ -11,21 +11,24 @@
 #include "../ADTs/LinkedPriorityQueueFastDequeue.h"
 #include "../ADTs/List.h"
 #include "../ADTs/ArrayList.h"
+#include "../ADTs/Map.h"
+#include "../ADTs/MapLinkedNode.h"
+#include "../ADTs/MapLinkedList.h"
 #include "../Movie.h"
 
 class BoxOffice{
 
 private:
 
-    float ticketPrice = 10.00;
-    int totalTicketsSold = 0;
-    List* theaterList = new ArrayList(5);
-    PriorityQueue<TheaterRoom>* moviesInTheaters = new LinkedPriorityQueueFastDequeue<TheaterRoom>;
+    float ticketPrice;
+    int totalTicketsSold;
+    Map<TheaterRoom>* theaterList;
+    PriorityQueue<Movie>* moviesInTheaters;
 
 
 public:
 
-    BoxOffice();
+    BoxOffice(MapLinkedList<TheaterRoom>* theaterRoomList, LinkedPriorityQueueFastDequeue<Movie>* moviesInTheaters);
     ~BoxOffice();
     void changeTicketPrice(float newTicketPrice);
     float getTicketPrice();
