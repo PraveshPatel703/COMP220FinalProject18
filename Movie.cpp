@@ -4,11 +4,11 @@
 
 #include "Movie.h"
 
-Movie::Movie() {
-    this->title = title;
-    this->genre = genre;
-    this->rating = rating;
-    this->duration = duration;
+Movie::Movie(std::string titleIn, std::string genreIn, float ratingIn, float durationIn) {
+    this->title = titleIn;
+    this->genre = genreIn;
+    this->rating = ratingIn;
+    this->duration = durationIn;
 }
 
 Movie::~Movie() {
