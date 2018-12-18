@@ -57,22 +57,9 @@ include CMakeFiles/COMP220FinalProject18.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/COMP220FinalProject18.dir/flags.make
 
-CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.o: CMakeFiles/COMP220FinalProject18.dir/flags.make
-CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.o: ../MasterTester.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.o"
-	C:/cygwin64/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.o -c /cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/MasterTester.cpp
-
-CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.i"
-	C:/cygwin64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/MasterTester.cpp > CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.i
-
-CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.s"
-	C:/cygwin64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/MasterTester.cpp -o CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.s
-
 CMakeFiles/COMP220FinalProject18.dir/Movie.cpp.o: CMakeFiles/COMP220FinalProject18.dir/flags.make
 CMakeFiles/COMP220FinalProject18.dir/Movie.cpp.o: ../Movie.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/COMP220FinalProject18.dir/Movie.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/COMP220FinalProject18.dir/Movie.cpp.o"
 	C:/cygwin64/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/COMP220FinalProject18.dir/Movie.cpp.o -c /cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Movie.cpp
 
 CMakeFiles/COMP220FinalProject18.dir/Movie.cpp.i: cmake_force
@@ -85,7 +72,7 @@ CMakeFiles/COMP220FinalProject18.dir/Movie.cpp.s: cmake_force
 
 CMakeFiles/COMP220FinalProject18.dir/Boxoffice/BoxOffice.cpp.o: CMakeFiles/COMP220FinalProject18.dir/flags.make
 CMakeFiles/COMP220FinalProject18.dir/Boxoffice/BoxOffice.cpp.o: ../Boxoffice/BoxOffice.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/COMP220FinalProject18.dir/Boxoffice/BoxOffice.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/COMP220FinalProject18.dir/Boxoffice/BoxOffice.cpp.o"
 	C:/cygwin64/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/COMP220FinalProject18.dir/Boxoffice/BoxOffice.cpp.o -c /cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Boxoffice/BoxOffice.cpp
 
 CMakeFiles/COMP220FinalProject18.dir/Boxoffice/BoxOffice.cpp.i: cmake_force
@@ -98,7 +85,7 @@ CMakeFiles/COMP220FinalProject18.dir/Boxoffice/BoxOffice.cpp.s: cmake_force
 
 CMakeFiles/COMP220FinalProject18.dir/ADTs/ArrayList.cpp.o: CMakeFiles/COMP220FinalProject18.dir/flags.make
 CMakeFiles/COMP220FinalProject18.dir/ADTs/ArrayList.cpp.o: ../ADTs/ArrayList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/COMP220FinalProject18.dir/ADTs/ArrayList.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/COMP220FinalProject18.dir/ADTs/ArrayList.cpp.o"
 	C:/cygwin64/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/COMP220FinalProject18.dir/ADTs/ArrayList.cpp.o -c /cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/ArrayList.cpp
 
 CMakeFiles/COMP220FinalProject18.dir/ADTs/ArrayList.cpp.i: cmake_force
@@ -111,7 +98,7 @@ CMakeFiles/COMP220FinalProject18.dir/ADTs/ArrayList.cpp.s: cmake_force
 
 CMakeFiles/COMP220FinalProject18.dir/Concessions/ConcessionItem.cpp.o: CMakeFiles/COMP220FinalProject18.dir/flags.make
 CMakeFiles/COMP220FinalProject18.dir/Concessions/ConcessionItem.cpp.o: ../Concessions/ConcessionItem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/COMP220FinalProject18.dir/Concessions/ConcessionItem.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/COMP220FinalProject18.dir/Concessions/ConcessionItem.cpp.o"
 	C:/cygwin64/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/COMP220FinalProject18.dir/Concessions/ConcessionItem.cpp.o -c /cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Concessions/ConcessionItem.cpp
 
 CMakeFiles/COMP220FinalProject18.dir/Concessions/ConcessionItem.cpp.i: cmake_force
@@ -124,7 +111,7 @@ CMakeFiles/COMP220FinalProject18.dir/Concessions/ConcessionItem.cpp.s: cmake_for
 
 CMakeFiles/COMP220FinalProject18.dir/Boxoffice/TheaterRoom.cpp.o: CMakeFiles/COMP220FinalProject18.dir/flags.make
 CMakeFiles/COMP220FinalProject18.dir/Boxoffice/TheaterRoom.cpp.o: ../Boxoffice/TheaterRoom.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/COMP220FinalProject18.dir/Boxoffice/TheaterRoom.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/COMP220FinalProject18.dir/Boxoffice/TheaterRoom.cpp.o"
 	C:/cygwin64/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/COMP220FinalProject18.dir/Boxoffice/TheaterRoom.cpp.o -c /cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Boxoffice/TheaterRoom.cpp
 
 CMakeFiles/COMP220FinalProject18.dir/Boxoffice/TheaterRoom.cpp.i: cmake_force
@@ -137,7 +124,7 @@ CMakeFiles/COMP220FinalProject18.dir/Boxoffice/TheaterRoom.cpp.s: cmake_force
 
 CMakeFiles/COMP220FinalProject18.dir/Concessions/ConcessionStand.cpp.o: CMakeFiles/COMP220FinalProject18.dir/flags.make
 CMakeFiles/COMP220FinalProject18.dir/Concessions/ConcessionStand.cpp.o: ../Concessions/ConcessionStand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/COMP220FinalProject18.dir/Concessions/ConcessionStand.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/COMP220FinalProject18.dir/Concessions/ConcessionStand.cpp.o"
 	C:/cygwin64/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/COMP220FinalProject18.dir/Concessions/ConcessionStand.cpp.o -c /cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Concessions/ConcessionStand.cpp
 
 CMakeFiles/COMP220FinalProject18.dir/Concessions/ConcessionStand.cpp.i: cmake_force
@@ -148,22 +135,9 @@ CMakeFiles/COMP220FinalProject18.dir/Concessions/ConcessionStand.cpp.s: cmake_fo
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COMP220FinalProject18.dir/Concessions/ConcessionStand.cpp.s"
 	C:/cygwin64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Concessions/ConcessionStand.cpp -o CMakeFiles/COMP220FinalProject18.dir/Concessions/ConcessionStand.cpp.s
 
-CMakeFiles/COMP220FinalProject18.dir/MovieTheater.cpp.o: CMakeFiles/COMP220FinalProject18.dir/flags.make
-CMakeFiles/COMP220FinalProject18.dir/MovieTheater.cpp.o: ../MovieTheater.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/COMP220FinalProject18.dir/MovieTheater.cpp.o"
-	C:/cygwin64/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/COMP220FinalProject18.dir/MovieTheater.cpp.o -c /cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/MovieTheater.cpp
-
-CMakeFiles/COMP220FinalProject18.dir/MovieTheater.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COMP220FinalProject18.dir/MovieTheater.cpp.i"
-	C:/cygwin64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/MovieTheater.cpp > CMakeFiles/COMP220FinalProject18.dir/MovieTheater.cpp.i
-
-CMakeFiles/COMP220FinalProject18.dir/MovieTheater.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COMP220FinalProject18.dir/MovieTheater.cpp.s"
-	C:/cygwin64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/MovieTheater.cpp -o CMakeFiles/COMP220FinalProject18.dir/MovieTheater.cpp.s
-
 CMakeFiles/COMP220FinalProject18.dir/main.cpp.o: CMakeFiles/COMP220FinalProject18.dir/flags.make
 CMakeFiles/COMP220FinalProject18.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/COMP220FinalProject18.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/COMP220FinalProject18.dir/main.cpp.o"
 	C:/cygwin64/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/COMP220FinalProject18.dir/main.cpp.o -c /cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/main.cpp
 
 CMakeFiles/COMP220FinalProject18.dir/main.cpp.i: cmake_force
@@ -176,31 +150,27 @@ CMakeFiles/COMP220FinalProject18.dir/main.cpp.s: cmake_force
 
 # Object files for target COMP220FinalProject18
 COMP220FinalProject18_OBJECTS = \
-"CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.o" \
 "CMakeFiles/COMP220FinalProject18.dir/Movie.cpp.o" \
 "CMakeFiles/COMP220FinalProject18.dir/Boxoffice/BoxOffice.cpp.o" \
 "CMakeFiles/COMP220FinalProject18.dir/ADTs/ArrayList.cpp.o" \
 "CMakeFiles/COMP220FinalProject18.dir/Concessions/ConcessionItem.cpp.o" \
 "CMakeFiles/COMP220FinalProject18.dir/Boxoffice/TheaterRoom.cpp.o" \
 "CMakeFiles/COMP220FinalProject18.dir/Concessions/ConcessionStand.cpp.o" \
-"CMakeFiles/COMP220FinalProject18.dir/MovieTheater.cpp.o" \
 "CMakeFiles/COMP220FinalProject18.dir/main.cpp.o"
 
 # External object files for target COMP220FinalProject18
 COMP220FinalProject18_EXTERNAL_OBJECTS =
 
-COMP220FinalProject18.exe: CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.o
 COMP220FinalProject18.exe: CMakeFiles/COMP220FinalProject18.dir/Movie.cpp.o
 COMP220FinalProject18.exe: CMakeFiles/COMP220FinalProject18.dir/Boxoffice/BoxOffice.cpp.o
 COMP220FinalProject18.exe: CMakeFiles/COMP220FinalProject18.dir/ADTs/ArrayList.cpp.o
 COMP220FinalProject18.exe: CMakeFiles/COMP220FinalProject18.dir/Concessions/ConcessionItem.cpp.o
 COMP220FinalProject18.exe: CMakeFiles/COMP220FinalProject18.dir/Boxoffice/TheaterRoom.cpp.o
 COMP220FinalProject18.exe: CMakeFiles/COMP220FinalProject18.dir/Concessions/ConcessionStand.cpp.o
-COMP220FinalProject18.exe: CMakeFiles/COMP220FinalProject18.dir/MovieTheater.cpp.o
 COMP220FinalProject18.exe: CMakeFiles/COMP220FinalProject18.dir/main.cpp.o
 COMP220FinalProject18.exe: CMakeFiles/COMP220FinalProject18.dir/build.make
 COMP220FinalProject18.exe: CMakeFiles/COMP220FinalProject18.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable COMP220FinalProject18.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable COMP220FinalProject18.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/COMP220FinalProject18.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

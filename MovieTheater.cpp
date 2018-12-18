@@ -10,13 +10,10 @@ MovieTheater::MovieTheater(BoxOffice newBoxOffice, ConcessionStand newConcession
     this->myConcessionStand = newConcessionStand;
 }
 
-MovieTheater::MovieTheater(const ConcessionStand &concesstionToCopy){
+MovieTheater::MovieTheater(const ConcessionStand &concessionToCopy){
 
 }
 
-MovieTheater::MovieTheater& operator=(const ConcessionStand &concessionStand){
-
-}
 
 MovieTheater::~MovieTheater(){
 

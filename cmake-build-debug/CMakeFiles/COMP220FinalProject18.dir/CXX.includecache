@@ -6,16 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/ArrayList.cpp
-iostream
--
-ArrayList.h
-/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/ArrayList.h
-../ArrayLib.h
-/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ArrayLib.h
-string
--
-
 /cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/ArrayList.h
 stdexcept
 -
@@ -24,14 +14,24 @@ string
 List.h
 /cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/List.h
 
-/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/LinkedList.h
-List.h
-/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/List.h
-LinkedNode.h
-/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/LinkedNode.h
-
 /cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/LinkedNode.h
 string
+-
+
+/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/LinkedPriorityQueueFastDequeue.h
+../Movie.h
+/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Movie.h
+../Boxoffice/TheaterRoom.h
+/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Boxoffice/TheaterRoom.h
+PriorityLinkedNode.h
+/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/PriorityLinkedNode.h
+PriorityQueue.h
+/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/PriorityQueue.h
+LinkedPriorityQueueFastDequeue.inl
+/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/LinkedPriorityQueueFastDequeue.inl
+
+/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/LinkedPriorityQueueFastDequeue.inl
+stdexcept
 -
 
 /cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/List.h
@@ -74,7 +74,15 @@ MapLinkedNode.inl
 MapLinkedNode.h
 /cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/MapLinkedNode.h
 
-/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ArrayLib.h
+/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/PriorityLinkedNode.h
+PriorityLinkedNode.inl
+/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/PriorityLinkedNode.inl
+
+/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/PriorityLinkedNode.inl
+PriorityLinkedNode.h
+/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/PriorityLinkedNode.h
+
+/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/PriorityQueue.h
 string
 -
 
@@ -91,16 +99,18 @@ string
 /cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Boxoffice/BoxOffice.h
 string
 /cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Boxoffice/string
-../ADTs/LinkedList.h
-/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/LinkedList.h
-../Movie.h
-/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Movie.h
-../ADTs/ArrayList.h
-/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/ArrayList.h
-
-/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Boxoffice/TheaterRoom.cpp
 TheaterRoom.h
 /cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Boxoffice/TheaterRoom.h
+../ADTs/PriorityQueue.h
+/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/PriorityQueue.h
+../ADTs/LinkedPriorityQueueFastDequeue.h
+/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/LinkedPriorityQueueFastDequeue.h
+../ADTs/List.h
+/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/List.h
+../ADTs/ArrayList.h
+/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/ArrayList.h
+../Movie.h
+/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Movie.h
 
 /cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Boxoffice/TheaterRoom.h
 ../ADTs/LinkedNode.h
@@ -110,19 +120,9 @@ TheaterRoom.h
 string
 -
 
-/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Concessions/ConcessionItem.cpp
-ConcessionItem.h
 /cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Concessions/ConcessionItem.h
 string
 -
-
-/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Concessions/ConcessionItem.h
-string
--
-
-/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Concessions/ConcessionStand.cpp
-ConcessionStand.h
-/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Concessions/ConcessionStand.h
 
 /cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Concessions/ConcessionStand.h
 ConcessionItem.h
@@ -134,35 +134,25 @@ ConcessionItem.h
 ../ADTs/MapLinkedNode.h
 /cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/MapLinkedNode.h
 
-/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/MasterTester.cpp
-iostream
-/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/iostream
-Concessions/ConcessionItem.h
-/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Concessions/ConcessionItem.h
-Concessions/ConcessionStand.h
-/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Concessions/ConcessionStand.h
-Boxoffice/TheaterRoom.h
-/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Boxoffice/TheaterRoom.h
-Movie.h
-/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Movie.h
-Boxoffice/BoxOffice.h
-/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Boxoffice/BoxOffice.h
-
-/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Movie.cpp
-Movie.h
-/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Movie.h
-
 /cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Movie.h
 string
 /cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/string
 
-/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/MovieTheater.cpp
-MovieTheater.h
-/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/MovieTheater.h
-
-/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/MovieTheater.h
-Boxoffice/BoxOffice.h
-/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Boxoffice/BoxOffice.h
-Concessions/ConcessionStand.h
+/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/main.cpp
+iostream
+-
+string
+/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/string
+cmath
+/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmath
+../COMP220FinalProject18/Concessions/ConcessionItem.h
+/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Concessions/ConcessionItem.h
+../COMP220FinalProject18/Concessions/ConcessionStand.h
 /cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Concessions/ConcessionStand.h
+../COMP220FinalProject18/Boxoffice/BoxOffice.h
+/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Boxoffice/BoxOffice.h
+../COMP220FinalProject18/Boxoffice/TheaterRoom.h
+/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Boxoffice/TheaterRoom.h
+Movie.h
+/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Movie.h
 

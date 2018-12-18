@@ -1,8 +1,8 @@
 //
 // Created by Toby Dragon on 10/24/18.
 //
-#include "LinkedPriorityQueueFastDequeue.h"
 #include <stdexcept>
+
 
 template <class T>
 LinkedPriorityQueueFastDequeue<T>::LinkedPriorityQueueFastDequeue(){
@@ -71,4 +71,18 @@ T LinkedPriorityQueueFastDequeue<T>::dequeueHighestPriorityItem(){
 template <class T>
 bool LinkedPriorityQueueFastDequeue<T>::isEmpty(){
     return front == nullptr;
+}
+
+template<class T>
+std::string LinkedPriorityQueueFastDequeue<T>::toString() {
+    PriorityLinkedNode<T>* curr = front;
+    TheaterRoom currItem = front->getItem();
+    std::string stringToReturn;
+
+    while(curr->getNext() != nullptr){
+        stringToReturn += currItem.getMoviePlaying().getName();
+        stringToReturn += ", ";
+        curr = curr->getNext();
+    }
+
 }

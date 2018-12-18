@@ -29,3 +29,7 @@ void BoxOffice::changeTicketPrice(float newTicketPrice) {
 int BoxOffice::getTotalTicketsSold() {
     return totalTicketsSold;
 }
+
+std::string BoxOffice::getMoviesPlaying() {
+    return moviesInTheaters->toString();
+}

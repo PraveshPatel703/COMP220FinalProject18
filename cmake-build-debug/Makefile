@@ -258,33 +258,6 @@ Concessions/ConcessionStand.cpp.s:
 	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/Concessions/ConcessionStand.cpp.s
 .PHONY : Concessions/ConcessionStand.cpp.s
 
-MasterTester.o: MasterTester.cpp.o
-
-.PHONY : MasterTester.o
-
-# target to build an object file
-MasterTester.cpp.o:
-	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.o
-.PHONY : MasterTester.cpp.o
-
-MasterTester.i: MasterTester.cpp.i
-
-.PHONY : MasterTester.i
-
-# target to preprocess a source file
-MasterTester.cpp.i:
-	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.i
-.PHONY : MasterTester.cpp.i
-
-MasterTester.s: MasterTester.cpp.s
-
-.PHONY : MasterTester.s
-
-# target to generate assembly for a file
-MasterTester.cpp.s:
-	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.s
-.PHONY : MasterTester.cpp.s
-
 Movie.o: Movie.cpp.o
 
 .PHONY : Movie.o
@@ -311,33 +284,6 @@ Movie.s: Movie.cpp.s
 Movie.cpp.s:
 	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/Movie.cpp.s
 .PHONY : Movie.cpp.s
-
-MovieTheater.o: MovieTheater.cpp.o
-
-.PHONY : MovieTheater.o
-
-# target to build an object file
-MovieTheater.cpp.o:
-	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/MovieTheater.cpp.o
-.PHONY : MovieTheater.cpp.o
-
-MovieTheater.i: MovieTheater.cpp.i
-
-.PHONY : MovieTheater.i
-
-# target to preprocess a source file
-MovieTheater.cpp.i:
-	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/MovieTheater.cpp.i
-.PHONY : MovieTheater.cpp.i
-
-MovieTheater.s: MovieTheater.cpp.s
-
-.PHONY : MovieTheater.s
-
-# target to generate assembly for a file
-MovieTheater.cpp.s:
-	$(MAKE) -f CMakeFiles/COMP220FinalProject18.dir/build.make CMakeFiles/COMP220FinalProject18.dir/MovieTheater.cpp.s
-.PHONY : MovieTheater.cpp.s
 
 main.o: main.cpp.o
 
@@ -390,15 +336,9 @@ help:
 	@echo "... Concessions/ConcessionStand.o"
 	@echo "... Concessions/ConcessionStand.i"
 	@echo "... Concessions/ConcessionStand.s"
-	@echo "... MasterTester.o"
-	@echo "... MasterTester.i"
-	@echo "... MasterTester.s"
 	@echo "... Movie.o"
 	@echo "... Movie.i"
 	@echo "... Movie.s"
-	@echo "... MovieTheater.o"
-	@echo "... MovieTheater.i"
-	@echo "... MovieTheater.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

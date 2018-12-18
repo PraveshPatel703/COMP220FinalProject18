@@ -5,6 +5,8 @@
 #ifndef COMP220FinalProject18_LINKEDPRIORITYQUEUEFASTDEQUEUE_H
 #define COMP220FInalProject18_LINKEDPRIORITYQUEUEFASTDEQUEUE_H
 
+#include "../Movie.h"
+#include "../Boxoffice/TheaterRoom.h"
 #include "PriorityLinkedNode.h"
 #include "PriorityQueue.h"
 
@@ -28,6 +30,7 @@ public:
      */
     void addItem(const T& itemToAdd, float priorityToAdd);
 
+
     /*
      * removes and returns the item with the highest priority (large numbers are higher priority).
      * If the priorities are equal, it acts as a normal queue (FIFO)
@@ -41,6 +44,8 @@ public:
      * @returns true if queue is empty, false if there are any items
      */
     bool isEmpty();
+
+    std::string toString();
 
 };
 

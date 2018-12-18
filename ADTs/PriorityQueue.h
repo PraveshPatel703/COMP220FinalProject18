@@ -5,6 +5,8 @@
 #ifndef INC_220_27_PRIORITYQUEUE_PRIORITYQUEUE_H
 #define INC_220_27_PRIORITYQUEUE_PRIORITYQUEUE_H
 
+#include <string>
+
 template <class T>
 class PriorityQueue {
 
@@ -27,6 +29,8 @@ public:
      * @throws std::out_of_range exception if empty
      */
     virtual T dequeueHighestPriorityItem()=0;
+
+    virtual std::string toString()=0;
 
     /*
      * @returns true if queue is empty, false if there are any items

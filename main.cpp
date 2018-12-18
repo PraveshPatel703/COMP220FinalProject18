@@ -35,7 +35,7 @@ int main() {
             cout<<"/4 -> Total Tickets Sold"<<endl;
             cout<<"/5 -> Get Total Income"<<endl;
             cout<<"/6 -> Current Movies playing"<<endl;
-            //cout<<"/7 -> Sell Concession Item"<<endl;
+            cout<<"/7 -> Sell Concession Item"<<endl;
             cout<<"Enter a number: "<<endl;
             getline(cin,command);
 
@@ -58,15 +58,15 @@ int main() {
 
         if(command == "3"){
             cout<<"Enter Number of Tickets Sold: "<<endl;
-            std::cin>> numOfTickets;
-            for(int i=0; i<numOfTickets;i++) {
-                BO->updateTicketsSold();
-                totalIncome += BO->getTicketPrice();
-            }
+            //std::cin>> numOfTickets;
+            //for(int i=0; i<numOfTickets;i++) {
+              //  BO->updateTicketsSold();
+                //totalIncome += BO->getTicketPrice();
+       //     }
         }
 
         if(command == "4"){
-            std::cout << BO->getTicketsSold() << " Tickets were sold!"<<std::endl;
+            //std::cout << BO->getTicketsSold() << " Tickets were sold!"<<std::endl;
         }
 
         if(command == "5"){
@@ -76,7 +76,8 @@ int main() {
 
         if(command == "6"){
 
-            cout<<"!This feature is under construction!"<<endl;
+            cout<<"The current movies playing are: "<<endl;
+            BO->getMoviesPlaying();
         }
 
         if(command == "7"){

@@ -9,9 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Boxoffice/TheaterRoom.cpp" "/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/Boxoffice/TheaterRoom.cpp.o"
   "/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Concessions/ConcessionItem.cpp" "/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/Concessions/ConcessionItem.cpp.o"
   "/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Concessions/ConcessionStand.cpp" "/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/Concessions/ConcessionStand.cpp.o"
-  "/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/MasterTester.cpp" "/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/MasterTester.cpp.o"
   "/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/Movie.cpp" "/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/Movie.cpp.o"
-  "/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/MovieTheater.cpp" "/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/MovieTheater.cpp.o"
   "/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/main.cpp" "/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

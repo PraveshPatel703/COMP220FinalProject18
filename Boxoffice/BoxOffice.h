@@ -31,6 +31,7 @@ public:
     float getTicketPrice();
     int getMovieTime();
     int getTotalTicketsSold();
+    std::string getMoviesPlaying();
 
 
 };
