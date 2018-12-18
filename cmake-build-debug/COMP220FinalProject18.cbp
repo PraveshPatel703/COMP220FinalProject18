@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTS/LinkedPriorityQueueFastDequeue.h">
+			<Option target="COMP220FinalProject18"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/ArrayList.cpp">
 			<Option target="COMP220FinalProject18"/>
 		</Unit>
@@ -92,6 +95,9 @@
 		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/LinkedNode.h">
 			<Option target="COMP220FinalProject18"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/LinkedPriorityQueueFastDequeue.inl">
+			<Option target="COMP220FinalProject18"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/List.h">
 			<Option target="COMP220FinalProject18"/>
 		</Unit>
@@ -99,6 +105,15 @@
 			<Option target="COMP220FinalProject18"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/MapLinkedNode.inl">
+			<Option target="COMP220FinalProject18"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/PriorityLinkedNode.h">
+			<Option target="COMP220FinalProject18"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/PriorityLinkedNode.inl">
+			<Option target="COMP220FinalProject18"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ADTs/PriorityQueue.h">
 			<Option target="COMP220FinalProject18"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Matt/Documents/GitHub/COMP220FinalProject18/ArrayLib.h">

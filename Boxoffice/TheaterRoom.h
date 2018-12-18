@@ -17,9 +17,9 @@ private:
     Movie moviePlaying;
 
 public:
-    TheaterRoom(int seatCount, int roomNumber, Movie moviePlaying){};
+    TheaterRoom(int seatCount, int roomNumber, Movie moviePlaying);
 
-    ~TheaterRoom(){};
+    ~TheaterRoom();
 
     // get a theater room
     int getRoom();
@@ -31,7 +31,7 @@ public:
     Movie getMoviePlaying();
 
     //changes the movie playing
-    void setMovie();
+    void setMovie(Movie newMovie);
 
 
 };

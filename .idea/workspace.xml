@@ -12,18 +12,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9577d59b-223e-4f54-9fc3-60826236895e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ADTs/MapLinkedList.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ADTs/MapLinkedList.inl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ADTs/MapLinkedNode.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ADTs/MapLinkedNode.inl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ADTs/LinkedList.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ADTs/Map.h" beforeDir="false" afterPath="$PROJECT_DIR$/ADTs/Map.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boxoffice/BoxOffice.h" beforeDir="false" afterPath="$PROJECT_DIR$/Boxoffice/BoxOffice.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boxoffice/TheaterRoom.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Boxoffice/TheaterRoom.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boxoffice/TheaterRoom.h" beforeDir="false" afterPath="$PROJECT_DIR$/Boxoffice/TheaterRoom.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Concessions/ConcessionItem.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Concessions/ConcessionItem.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Concessions/ConcessionItem.h" beforeDir="false" afterPath="$PROJECT_DIR$/Concessions/ConcessionItem.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Concessions/ConcessionStand.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Concessions/ConcessionStand.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Concessions/ConcessionStand.h" beforeDir="false" afterPath="$PROJECT_DIR$/Concessions/ConcessionStand.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COMP220FinalProject18.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/COMP220FinalProject18.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/COMP220FinalProject18.cbp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -46,32 +40,32 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="32" />
-          <entry key="h" value="39" />
-          <entry key="inl" value="1" />
-          <entry key="txt" value="2" />
+          <entry key="cpp" value="40" />
+          <entry key="h" value="51" />
+          <entry key="inl" value="3" />
+          <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CMakeLists.txt" value="2" />
-          <entry key="ObjectiveC" value="72" />
+          <entry key="CMakeLists.txt" value="3" />
+          <entry key="ObjectiveC" value="94" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="3762" />
-          <entry key="h" value="3310" />
+          <entry key="cpp" value="3973" />
+          <entry key="h" value="3600" />
           <entry key="inl" value="891" />
-          <entry key="txt" value="442" />
+          <entry key="txt" value="603" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="81" />
+          <entry key="CMakeLists.txt" value="164" />
           <entry key="Doxygen file" value="5" />
-          <entry key="ObjectiveC" value="7958" />
-          <entry key="PLAIN_TEXT" value="361" />
+          <entry key="ObjectiveC" value="8459" />
+          <entry key="PLAIN_TEXT" value="439" />
         </counts>
       </usages-collector>
     </session>
@@ -168,113 +162,104 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="240" selection-start-line="7" selection-start-column="240" selection-end-line="7" selection-end-column="240" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ADTs/PriorityLinkedNode.h">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Boxoffice/BoxOffice.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+              <folding>
+                <element signature="e#47#69#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Concessions/ConcessionStand.cpp">
+        <entry file="file://$PROJECT_DIR$/Boxoffice/BoxOffice.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Concessions/ConcessionStand.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+            <state relative-caret-position="425">
+              <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
               <folding>
-                <element signature="e#137#164#0" expanded="true" />
+                <element signature="e#132#149#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Concessions/ConcessionItem.cpp">
+        <entry file="file://$PROJECT_DIR$/ADTs/ArrayList.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="323">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
-                <element signature="e#40#67#0" expanded="true" />
+                <element signature="e#132#152#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Concessions/ConcessionItem.h">
+        <entry file="file://$PROJECT_DIR$/ADTs/LinkedPriorityQueueFastDequeue.inl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ADTs/Map.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="51">
+              <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
               <folding>
-                <element signature="e#121#130#0" expanded="true" />
+                <element signature="e#45#88#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ADTs/MapLinkedList.h">
+        <entry file="file://$PROJECT_DIR$/ADTs/LinkedPriorityQueueFastDequeue.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+            <state relative-caret-position="130">
+              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
               <folding>
-                <element signature="e#191#200#0" expanded="true" />
+                <element signature="e#178#209#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ADTs/MapLinkedList.inl">
+        <entry file="file://$PROJECT_DIR$/Boxoffice/TheaterRoom.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="544">
+              <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Boxoffice/TheaterRoom.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
               <folding>
-                <element signature="e#47#73#0" expanded="true" />
-                <element signature="e#134#143#0" expanded="true" />
-                <element signature="e#267#276#0" expanded="true" />
-                <element signature="e#455#464#0" expanded="true" />
-                <element signature="e#456#465#0" expanded="true" />
-                <element signature="e#7067#7076#0" expanded="true" />
-                <element signature="e#608#617#0" expanded="true" />
+                <element signature="e#135#166#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ADTs/MapLinkedNode.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-              <folding>
-                <element signature="e#95#112#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ADTs/MapLinkedNode.inl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="e#80#89#0" expanded="true" />
-                <element signature="e#286#295#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/ADTs/PriorityLinkedNode.inl">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -300,7 +285,6 @@
         <option value="$PROJECT_DIR$/MovieTheater.h" />
         <option value="$PROJECT_DIR$/MovieTheater.cpp" />
         <option value="$PROJECT_DIR$/TheaterRoom.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/ADTs/MapLinkedNode.cpp" />
         <option value="$PROJECT_DIR$/ADTs/MapLinkedList.cpp" />
         <option value="$PROJECT_DIR$/Concessions/ConcessionStand.h" />
@@ -312,6 +296,11 @@
         <option value="$PROJECT_DIR$/ADTs/MapLinkedList.inl" />
         <option value="$PROJECT_DIR$/ADTs/Map.h" />
         <option value="$PROJECT_DIR$/Concessions/ConcessionStand.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/ADTs/LinkedPriorityQueueFastDequeue.h" />
+        <option value="$PROJECT_DIR$/Boxoffice/TheaterRoom.cpp" />
+        <option value="$PROJECT_DIR$/Boxoffice/TheaterRoom.h" />
+        <option value="$PROJECT_DIR$/Boxoffice/BoxOffice.h" />
       </list>
     </option>
   </component>
@@ -343,6 +332,11 @@
               <item name="COMP220FinalProject18" type="462c0819:PsiDirectoryNode" />
               <item name="ADTs" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="COMP220FinalProject18" type="b2602c69:ProjectViewProjectNode" />
+              <item name="COMP220FinalProject18" type="462c0819:PsiDirectoryNode" />
+              <item name="Boxoffice" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -352,7 +346,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/COMP220/220-36-BstStart" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/COMP220/COMP220-lab1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -410,7 +404,7 @@
       <workItem from="1543970929291" duration="2581000" />
       <workItem from="1543975047402" duration="1530000" />
       <workItem from="1543981672173" duration="18594000" />
-      <workItem from="1544800377179" duration="17433000" />
+      <workItem from="1544800377179" duration="23695000" />
     </task>
     <task id="LOCAL-00001" summary="i did stuff">
       <created>1543975345936</created>
@@ -461,21 +455,28 @@
       <option name="project" value="LOCAL" />
       <updated>1544542909885</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added and updated Map implementation and finished up Concessions">
+      <created>1544913492880</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1544913492880</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46847000" />
+    <option name="totallyTimeSpent" value="53109000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992908" visible="true" weight="0.10134228" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992908" visible="true" weight="0.18120806" />
       <window_info id="Structure" order="1" sideWeight="0.50070924" side_tool="true" weight="0.008724832" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -483,7 +484,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.0" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.069503546" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.17446809" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.08510638" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32765958" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -507,7 +508,8 @@
     <MESSAGE value="updated implementations of concessionitem and concessionstand also added some tests to mastertester" />
     <MESSAGE value="Created the MovieTheater class updated TheaterRoom, ConcessionStand, BoxOffice and added the Map" />
     <MESSAGE value="Added directories for organizational purposes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added directories for organizational purposes" />
+    <MESSAGE value="Added and updated Map implementation and finished up Concessions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added and updated Map implementation and finished up Concessions" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../COMP220-lab7/LinkedNode.h" />
@@ -525,16 +527,6 @@
     <entry file="file://$PROJECT_DIR$/ADTs/ArrayList.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ADTs/ArrayList.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#132#152#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Movie.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -549,13 +541,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Boxoffice/BoxOffice.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="68" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MovieTheater.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -566,27 +551,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Boxoffice/BoxOffice.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#132#149#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Movie.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Boxoffice/TheaterRoom.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -610,43 +578,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ADTs/LinkedNode.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ADTs/LinkedNode.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ADTs/LinkedList.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
           <folding>
             <element signature="e#134#151#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Boxoffice/TheaterRoom.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-          <folding>
-            <element signature="e#135#166#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -696,16 +633,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ADTs/MapLinkedList.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-          <folding>
-            <element signature="e#191#200#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ADTs/MapLinkedList.inl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
@@ -742,10 +669,129 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Desktop/COMP220/COMP220-lab1/GeometryLibrary.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/COMP220/COMP220-lab1/GeometryLibrary.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/COMP220/COMP220-lab1/TestLibrary.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/COMP220/COMP220-lab1/TestLibrary.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/COMP220/COMP220-lab1/GeometryLibraryTest.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Concessions/ConcessionStand.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="408">
+          <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ADTs/PriorityQueue.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ADTs/LinkedNode.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ADTs/LinkedNode.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ADTs/MapLinkedList.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="240" selection-start-line="7" selection-start-column="240" selection-end-line="7" selection-end-column="240" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ADTs/LinkedPriorityQueueFastDequeue.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="e#178#209#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ADTs/LinkedPriorityQueueFastDequeue.inl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <folding>
+            <element signature="e#45#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ADTs/PriorityLinkedNode.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Boxoffice/BoxOffice.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="e#47#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Boxoffice/TheaterRoom.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ADTs/PriorityLinkedNode.inl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Boxoffice/TheaterRoom.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <folding>
+            <element signature="e#135#166#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ADTs/ArrayList.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#132#152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Boxoffice/BoxOffice.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+          <folding>
+            <element signature="e#132#149#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

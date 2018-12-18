@@ -6,9 +6,12 @@
 #define COMP220FINALPROJECT18_BOXOFFICE_H
 
 #include "string"
-#include "../ADTs/LinkedList.h"
-#include "../Movie.h"
+#include "TheaterRoom.h"
+#include "../ADTs/PriorityQueue.h"
+#include "../ADTs/LinkedPriorityQueueFastDequeue.h"
+#include "../ADTs/List.h"
 #include "../ADTs/ArrayList.h"
+#include "../Movie.h"
 
 class BoxOffice{
 
@@ -18,7 +21,9 @@ private:
     int ticketsSold = 0;
     int movieTime;
     float duration;
-    //Movie* currentMovies = new Movie[5]();
+    PriorityQueue<TheaterRoom>* theaterPriority = new LinkedPriorityQueueFastDequeue<TheaterRoom>;
+    List* moviesInTheaters = new ArrayList(5);
+
 
 public:
 
@@ -27,9 +32,6 @@ public:
     void changeTicketPrice(float newTicketPrice);
     float getTicketPrice();
     int getMovieTime();
-    float getDuration();
-    //void setMovieToRoom(Movie[], int roomNumber);
-    void updateTicketsSold();
     int getTicketsSold();
 
 
